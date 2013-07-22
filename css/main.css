@@ -15,6 +15,12 @@ body {
     line-height: 1.4;
 }
 
+a,
+a:visited,
+a:hover {
+    color: #236F9D;
+}
+
 ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
@@ -63,14 +69,16 @@ textarea {
 body {
     font: 16px/26px 'Source Code Pro', Helvetica, Helvetica Neue, Arial, sans-serif;
     font-weight: 300;
+    background-color: #222;
+    color: #fff;
 }
 
 h1 {
-    font-weight: 600;
+    font-weight: 700;
 }
 
 h2, h3, h4, h5 {
- font-weight: 400;   
+    font-weight: 400;   
 }
 .wrapper {
     width: 90%;
@@ -82,18 +90,78 @@ h2, h3, h4, h5 {
    =================== */
 
 .header-container {
-    border-bottom: 20px solid #e44d26;
+    max-width: 720px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.site-header{
+    padding-top: 30px;
+}
+.site-promo {
+    padding: 3em 0;
+    text-align: center;
+}
+
+.site-promo h1 {
+    font-size: 4em;
+    line-height: 1.2em
+}
+.site-promo .description {
+    margin: 1em 2em 0;
+    font-size: 1.25em;
+    color: #ddd;
+}
+
+.site-promo .description strong {
+    font-weight: 400;
+    color: #20A260;
+}
+
+
+.site-logo {
+    float: left;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0 #000;
+}
+
+.site-logo .hacker {
+    color: #20A260;
+}
+
+.site-logo .ship {
+    color: white;
 }
 
 .footer-container,
 .main aside {
-    border-top: 20px solid #e44d26;
+ 
+}
+
+.inline-block-list li:first-child {
+    margin-left: 0;
+}
+.inline-block-list li {
+    display: inline-block;
+    padding: 0;
+    margin: 0 0 0 1.5em;
+    vertical-align: top;
 }
 
 .header-container,
 .footer-container,
 .main aside {
-    background: #f16529;
+ 
+}
+
+.main-container {
+    background-color: #fff;
+    color: #222;
 }
 
 .title {
@@ -105,26 +173,23 @@ h2, h3, h4, h5 {
    ============== */
 
 nav ul {
-    margin: 0;
+    float: right;
     padding: 0;
+    margin: 7px 0 0;
+    list-style: none;
 }
 
 nav a {
     display: block;
-    margin-bottom: 10px;
-    padding: 15px 0;
-
-    text-align: center;
-    text-decoration: none;
     font-weight: 400;
-
-    color: white;
-    background: #e44d26;
+    color: #236F9D;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 nav a:hover,
 nav a:visited {
-    color: white;
+    color: #236F9D;
 }
 
 nav a:hover {
@@ -185,37 +250,6 @@ nav a:hover {
 
 @media only screen and (min-width: 480px) {
 
-/* ====================
-    INTERMEDIATE: Menu
-   ==================== */
-
-    nav a {
-        float: left;
-        width: 27%;
-        margin: 0 1.7%;
-        padding: 25px 2%;
-        margin-bottom: 0;
-    }
-
-    nav li:first-child a {
-        margin-left: 0;
-    }
-
-    nav li:last-child a {
-        margin-right: 0;
-    }
-
-/* ========================
-    INTERMEDIATE: IE Fixes
-   ======================== */
-
-    nav ul li {
-        display: inline;
-    }
-
-    .oldie nav a {
-        margin: 0 0.7%;
-    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -225,10 +259,10 @@ nav a:hover {
    ==================== */
 
     .header-container,
-    .main aside {
+    .main aside {/*
         -webkit-box-shadow: 0 5px 10px #aaa;
            -moz-box-shadow: 0 5px 10px #aaa;
-                box-shadow: 0 5px 10px #aaa;
+                box-shadow: 0 5px 10px #aaa;*/
     }
 
 /* ============
@@ -237,11 +271,6 @@ nav a:hover {
 
     .title {
         float: left;
-    }
-
-    nav {
-        float: right;
-        width: 38%;
     }
 
 /* ============
