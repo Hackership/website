@@ -344,6 +344,32 @@ nav a:hover {
     padding-top: 30%;
 }
 
+#slidedeck-next,
+#slidedeck-prev {
+    display: none;
+    color: white;
+    line-height: 39px;
+    width: 30px;
+    opacity: 0.5;
+    background-color: #222;
+    color: white;
+    position: absolute;
+    z-index: 12;
+    top: 40%;
+    text-align: center;
+}
+
+#slidedeck-prev {
+    border-radius: 100% 5px 5px 100%;
+    left: -10px;
+}
+
+#slidedeck-next {
+    border-radius: 5px 100% 100% 5px;
+    right: -10px;
+}
+
+
 
 
 

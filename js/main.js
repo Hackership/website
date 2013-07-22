@@ -1,7 +1,17 @@
 $(document).ready(function(){
+ $("#slidedeck-prev").click(function(){
+ 	
+ 	$("#slidedeck")[0].contentWindow.postMessage("prev", "*");
+ });
+ $("#slidedeck-next").click(function(){
+ 	$("#slidedeck")[0].contentWindow.postMessage("next", "*");
+ });
  $("#slidedeck").on("load", function(){
  	var $deck = $(this);
- 	setTimeout(function() {$deck.fadeIn("slow");}, 100);
+ 	setTimeout(function() {
+ 		$deck.fadeIn("slow");
+ 		$("#slidedeck-prev, #slidedeck-next").fadeIn("slow");
+ 	}, 100);
  });
 });
 $(document).ready(function() {
