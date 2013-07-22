@@ -2,6 +2,13 @@
    HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
    ========================================================================== */
 
+
+/*
+ Colors based on Scheme:
+  http://colorschemedesigner.com/#3u61TK-hWpBpB
+
+*/
+
 html,
 button,
 input,
@@ -99,7 +106,7 @@ h2, h3, h4, h5 {
     padding-top: 30px;
 }
 .site-promo {
-    padding: 3em 0;
+    padding: 2em 0;
     text-align: center;
 }
 
@@ -118,7 +125,6 @@ h2, h3, h4, h5 {
     color: #20A260;
 }
 
-
 .site-logo {
     float: left;
     color: #fff;
@@ -130,7 +136,7 @@ h2, h3, h4, h5 {
     text-shadow: 2px 2px 0 #000;
 }
 
-.site-logo .hacker {
+.site-logo .hacker, .marker {
     color: #20A260;
 }
 
@@ -138,10 +144,6 @@ h2, h3, h4, h5 {
     color: white;
 }
 
-.footer-container,
-.main aside {
- 
-}
 
 .inline-block-list li:first-child {
     margin-left: 0;
@@ -153,12 +155,6 @@ h2, h3, h4, h5 {
     vertical-align: top;
 }
 
-.header-container,
-.footer-container,
-.main aside {
- 
-}
-
 .main-container {
     background-color: #fff;
     color: #222;
@@ -166,6 +162,76 @@ h2, h3, h4, h5 {
 
 .title {
     color: white;
+}
+
+.cta-option {
+    position: relative;
+    display: inline-block;
+    margin: 2.5em .5em 0;
+    vertical-align: top;
+}
+
+a.btn-apply,
+a.btn-learn-more,
+a.btn-apply:visited {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    padding: .6em 1em;
+    border: 1px solid #236F9D;
+    color: #fff;
+    background: #236F9D;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px -2px #111,inset 0 2px 5px 0 rgba(255,255,255,.3);
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+
+a.btn-apply:hover {
+    border: 1px solid #3B789D;
+    background: #3B789D;
+    color: #fff;
+}
+
+a.btn-learn-more,
+a.btn-learn-more:visited {
+    margin-top: .25em;
+    border-color: #222;
+    background: #444;
+    box-shadow: none;
+    font-size: 1.25em;
+}
+
+a.btn-learn-more:hover {
+    border-color: #333;
+    background: #555;
+}
+
+.main h2 {
+    text-align: center;
+    font-weight: 600;
+}
+
+.grid {
+    margin: 0 -15px;
+    letter-spacing: -.31em;
+    word-spacing: -.43em;
+    text-rendering: optimizespeed;
+}
+
+.grid-cell {
+    display: block;
+    vertical-align: top;
+    width: 100%;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-align: left;
+    text-rendering: auto;
+}
+
+.grid-cell > * {
+    padding: 0 15px;
 }
 
 /* ==============
@@ -204,7 +270,8 @@ nav a:hover {
     padding: 30px 0;
 }
 
-.main article h1 {
+.main article h2 {
+    text-align: center;
     font-size: 2em;
 }
 
@@ -240,7 +307,14 @@ nav a:hover {
 
 
 
-
+#slidedeck {
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+    border: none;
+    width: 304px;
+    height: 190px;
+}
 
 
 
@@ -250,9 +324,15 @@ nav a:hover {
 
 @media only screen and (min-width: 480px) {
 
+    #slidedeck {
+        width: 430px;
+        height: 269px;
+    }
+
 }
 
 @media only screen and (min-width: 768px) {
+
 
 /* ====================
     WIDE: CSS3 Effects
@@ -265,6 +345,15 @@ nav a:hover {
                 box-shadow: 0 5px 10px #aaa;*/
     }
 
+    #slidedeck {
+        width: 690px;
+        height: 432px;
+    }
+
+    .grid-cell {
+        display: inline-block;
+        width: 50%;
+    }
 /* ============
     WIDE: Menu
    ============ */
@@ -277,14 +366,17 @@ nav a:hover {
     WIDE: Main
    ============ */
 
-    .main article {
-        float: left;
-        width: 57%;
-    }
+}
 
-    .main aside {
-        float: right;
-        width: 28%;
+@media only screen and (min-width: 1024px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+    #slidedeck {
+        width: 920px;
+        height: 575px;
     }
 }
 
@@ -293,6 +385,11 @@ nav a:hover {
 /* ===============
     Maximal Width
    =============== */
+
+    #slidedeck {
+        width: 1024px;
+        height: 640px;
+    }
 
     .wrapper {
         width: 1026px; /* 1140px - 10% for margins */
