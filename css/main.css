@@ -61,9 +61,17 @@ textarea {
    ========================================================================== */
 
 body {
-    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    font: 16px/26px 'Source Code Pro', Helvetica, Helvetica Neue, Arial, sans-serif;
+    font-weight: 300;
 }
 
+h1 {
+    font-weight: 600;
+}
+
+h2, h3, h4, h5 {
+ font-weight: 400;   
+}
 .wrapper {
     width: 90%;
     margin: 0 5%;
@@ -108,7 +116,7 @@ nav a {
 
     text-align: center;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 400;
 
     color: white;
     background: #e44d26;
