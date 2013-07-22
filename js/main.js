@@ -1,3 +1,9 @@
+$(document).ready(function(){
+ $("#slidedeck").on("load", function(){
+ 	var $deck = $(this);
+ 	setTimeout(function() {$deck.fadeIn("slow");}, 100);
+ });
+});
 $(document).ready(function() {
   function filterPath(string) {
   return string

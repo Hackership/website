@@ -312,15 +312,38 @@ nav a:hover {
 
 
 
-
-#slidedeck {
+#slidedeck-wrapper {
     margin: 0 auto;
     padding: 0;
     display: block;
-    border: none;
     width: 304px;
     height: 190px;
+    position: relative;
 }
+
+#slidedeck {
+    display: none;
+    width: 100%;
+    height: 100%;
+    border: none;
+    z-index: 10;
+    position: relative;
+}
+
+#loading-slides {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background-color: #222;
+    color: white;
+    display: block;
+    text-align: center;
+    padding-top: 30%;
+}
+
 
 
 
@@ -330,7 +353,7 @@ nav a:hover {
 
 @media only screen and (min-width: 480px) {
 
-    #slidedeck {
+    #slidedeck-wrapper {
         width: 430px;
         height: 269px;
     }
@@ -351,7 +374,7 @@ nav a:hover {
                 box-shadow: 0 5px 10px #aaa;*/
     }
 
-    #slidedeck {
+    #slidedeck-wrapper {
         width: 690px;
         height: 432px;
     }
@@ -380,7 +403,7 @@ nav a:hover {
     Maximal Width
    =============== */
 
-    #slidedeck {
+    #slidedeck-wrapper {
         width: 920px;
         height: 575px;
     }
@@ -392,7 +415,7 @@ nav a:hover {
     Maximal Width
    =============== */
 
-    #slidedeck {
+    #slidedeck-wrapper {
         width: 1024px;
         height: 640px;
     }
