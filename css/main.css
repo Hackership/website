@@ -175,6 +175,7 @@ em {
 
 a.btn-apply,
 a.btn-learn-more,
+.newsletter button,
 a.btn-apply:visited {
     position: relative;
     display: inline-block;
@@ -236,9 +237,27 @@ a.btn-learn-more:hover {
     padding: 0 15px;
 }
 
-#questions {
+.main article {
     max-width: 720px;
-    margin: 0 auto;
+    margin: 100px auto 30px;
+}
+
+.newsletter section{
+    text-align: center;
+}
+
+.newsletter input, 
+.newsletter button {
+    font-size: 2em;
+    line-height: 1.2em;
+    border-radius: 5px 0 0 5px;
+    padding-left: 15px;
+}
+
+.newsletter button {
+    border-radius: 0 10px 10px 0;
+    vertical-align: baseline;
+    padding: 3px 15px 2px;
 }
 
 /* ==============
@@ -303,7 +322,6 @@ nav a:hover {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
 
 
 
