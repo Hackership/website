@@ -331,13 +331,14 @@ nav a:hover {
 }
 
 #loading-slides {
+    cursor: pointer;
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     z-index: 1;
-    background-color: #222;
+    background-color: #286d99;
     color: white;
     display: block;
     text-align: center;
@@ -346,6 +347,7 @@ nav a:hover {
 
 #slidedeck-next,
 #slidedeck-prev {
+    cursor: pointer;
     display: none;
     color: white;
     line-height: 39px;
