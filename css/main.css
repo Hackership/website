@@ -450,8 +450,8 @@ nav a:hover {
    =============== */
 
     #slidedeck-wrapper {
-        width: 920px;
-        height: 575px;
+        width: 720px;
+        height: 450px;
     }
 }
 
@@ -462,8 +462,8 @@ nav a:hover {
    =============== */
 
     #slidedeck-wrapper {
-        width: 1024px;
-        height: 640px;
+        width: 720px;
+        height: 450px;
     }
 
     .wrapper {
