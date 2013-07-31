@@ -4,6 +4,8 @@ $(document).ready(function(){
     if(loading_slidedeck) return false;
     loading_slidedeck = true;
     $(this).css("cursor", "wait");
+    $(this).find("h1").hide();
+    $(this).find("img").show();
     $("#slidedeck").attr("src", "http://hackership.github.io/slides/presentations/hackership/?full#Cover"
       ).on("load", function(){
         var $deck = $(this);
