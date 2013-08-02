@@ -85,7 +85,7 @@ h1 {
 }
 
 h2, h3, h4, h5 {
-    font-weight: 400;   
+    font-weight: 400;
 }
 .wrapper {
     width: 90%;
@@ -246,12 +246,16 @@ a.btn-learn-more:hover {
     text-align: center;
 }
 
-.newsletter input, 
+.newsletter input,
 .newsletter button {
-    font-size: 2em;
-    line-height: 1.2em;
+    font-size: 1em;
+    line-height: 2.2em;
     border-radius: 5px 0 0 5px;
     padding-left: 15px;
+}
+
+.newsletter input {
+    max-width: 50%;
 }
 
 .newsletter button {
@@ -440,6 +444,16 @@ nav a:hover {
 /* ============
     WIDE: Main
    ============ */
+
+    .newsletter input,
+    .newsletter button {
+        font-size: 1.8em;
+        line-height: 1.6em;
+    }
+
+    .newsletter input {
+        max-width: 60%;
+    }
 
 }
 
