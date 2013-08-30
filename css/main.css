@@ -310,9 +310,31 @@ nav a:hover {
     padding: 0px 5% 10px;
 }
 
-.footer-container footer {
+footer {
+    max-width: 720px;
     color: white;
-    padding: 20px 0;
+    padding: 20px;
+    margin: 0 auto;
+    font-size: 0.8em;
+}
+
+footer div.third {
+    float: left;
+    width: 45%;
+}
+
+footer address {
+    font-style: normal;
+    line-height: 1.5em;
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+footer li {
+    padding: 5px 10px;
+    display: inline;
 }
 
 /* ===============
