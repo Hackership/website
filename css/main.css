@@ -92,9 +92,6 @@ h2, h3, h4, h5 {
     margin: 0 5%;
 }
 
-/* ===================
-    ALL: Orange Theme
-   =================== */
 
 .header-container {
     max-width: 720px;
@@ -102,9 +99,10 @@ h2, h3, h4, h5 {
     margin: 0 auto;
 }
 
-.site-header{
-    padding-top: 30px;
+.site-header {
+  padding: 0.8em 0;
 }
+
 .site-promo {
     padding: 2em 0;
     text-align: center;
@@ -146,6 +144,9 @@ em {
     color: white;
 }
 
+.site-logo a {
+  text-decoration: none;
+}
 
 .inline-block-list li:first-child {
     margin-left: 0;
@@ -413,6 +414,28 @@ footer li {
 #slidedeck-next {
     border-radius: 5px 100% 100% 5px;
     right: -10px;
+}
+
+
+.connect {
+  width: 40%;
+  float: left;
+}
+
+.newsletter {
+  width: 59%;
+  float: left;
+}
+
+.imprint {
+  padding: 3em 0 0 0;
+  clear: both;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+.imprint address {
+  display: inline;
 }
 
 
