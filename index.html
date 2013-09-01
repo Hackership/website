@@ -35,4 +35,56 @@ layout: with-promo
 
 <hr />
 
-<h2>More Hackership</h2>
+<article id="more-hackership">
+    <h2>More Hackership</h2>
+
+    <div class="grid">
+        <div class="grid-cell">
+            <h3><span class="marker">></span> Full-time focus </h3>
+            <ul>
+                <li><a href="/learn-more/">Learn more about Hackership</a></li>
+                <li><a href="/questions/">Get your questions answered</a></li>
+                <li><a href="#newsletter">Subscribe to the Newsletter</a></li>
+            </ul>
+        </div>
+
+        <div class="grid-cell">
+            <h3><span class="marker">></span> Latest News <a href="http://blog.hackership.org/atom.xml" class="tiny-button">&raquo;rss</a></h2>
+            <ul id="js-blog-posts-list"></ul>
+              
+            <script type="text/x-template" data-template="blog-post">
+                <li>
+                  <span class="date-info">${date}</span>
+                  <a href="http://blog.hackership.org${link}">${title}</a>
+                </li>
+            </script>
+        </div>
+    </div>
+</article>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/1.7.2/moment.min.js"></script>
+<script>
+    window.OTS = window.OTS || {};
+    OTS.template = function(name, data) {
+      var templateString = $('script[data-template=' + name + ']').html();
+      !templateString && console.error('empty or non-existing template "' + name + '"');
+      templateString = $.trim(templateString);
+      var replacer = function(match, key) {
+        return data[key];
+      }
+      templateString = templateString.replace(/\$\{([^\s\:\}]+)(?:\:([^\s\:\}]+))?\}/g, replacer);
+      return templateString;
+    }
+
+    window.blog_feed_loaded = function(res) {
+        var posts = [];
+        $.each(res, function(idx, item) {
+            if (!item) return
+          if (idx === 5) return false; // max 5 items pls
+          
+          posts.push(OTS.template('blog-post', item));
+        });
+        $('#js-blog-posts-list').html(posts.join("\n"));
+    }
+    $(function() {$.getJSON("http://localhost:9090/posts.js?callback=?");});
+</script>

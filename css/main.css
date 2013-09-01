@@ -118,6 +118,15 @@ h2, h3, h4, h5 {
     color: #ddd;
 }
 
+.tiny-button {
+    text-transform: none;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    color: #20A260;
+    font-size: 0.8em;
+}
+
 em {
     text-transform: none;
     font-style: normal;
@@ -236,6 +245,21 @@ a.btn-learn-more:hover {
 
 .grid-cell > * {
     padding: 0 15px;
+}
+
+#more-hackership ul {
+    padding-left: 1em;
+    list-style: none;
+}
+
+#more-hackership .date-info {
+    font-size: 0.6em;
+    display: block;
+    margin: 10px 0 -5px 0;
+}
+
+#more-hackership li {
+    padding-left: 2em;
 }
 
 .main article {
