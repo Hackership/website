@@ -260,6 +260,7 @@ a.btn-apply,
 a.btn-pledge,
 a.btn-learn-more,
 .newsletter button,
+.promo-newsletter button,
 a.btn-pledge:visited,
 a.btn-apply:visited {
     position: relative;
@@ -345,6 +346,8 @@ a.btn-learn-more:hover {
     text-align: center;
 }
 
+.promo-newsletter input,
+.promo-newsletter button,
 .newsletter input,
 .newsletter button {
     font-size: 1em;
@@ -353,10 +356,12 @@ a.btn-learn-more:hover {
     padding-left: 15px;
 }
 
+.promo-newsletter input,
 .newsletter input {
     max-width: 50%;
 }
 
+.promo-newsletter button,
 .newsletter button {
     border-radius: 0 10px 10px 0;
     vertical-align: baseline;
@@ -527,6 +532,10 @@ footer li {
   float: left;
 }
 
+.promo-newsletter {
+    margin: 1.5em 0 0 0;
+}
+
 .newsletter {
   width: 59%;
   float: left;
@@ -613,12 +622,15 @@ footer li {
     WIDE: Main
    ============ */
 
+    .promo-newsletter input,
+    .promo-newsletter button,
     .newsletter input,
     .newsletter button {
         font-size: 1.8em;
         line-height: 1.6em;
     }
 
+    .promo-newsletter input,
     .newsletter input {
         max-width: 60%;
     }
