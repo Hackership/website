@@ -17,6 +17,10 @@ textarea {
     color: #222;
 }
 
+stroke {
+    text-decoration: line-through;
+}
+
 body {
     font-size: 1em;
     line-height: 1.4;
