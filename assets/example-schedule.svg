@@ -1,0 +1,1124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1052.3622"
+   height="744.09448"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="example-schedule.svg"
+   inkscape:export-filename="/Users/benjaminkampmann/dev/hs-www/assets/example-schedule.png"
+   inkscape:export-xdpi="204.32001"
+   inkscape:export-ydpi="204.32001">
+  <defs
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4616">
+      <stop
+         style="stop-color:#0a6daf;stop-opacity:1;"
+         offset="0"
+         id="stop4618" />
+      <stop
+         style="stop-color:#0a6daf;stop-opacity:0;"
+         offset="1"
+         id="stop4620" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4606">
+      <stop
+         style="stop-color:#0a6daf;stop-opacity:1;"
+         offset="0"
+         id="stop4608" />
+      <stop
+         style="stop-color:#0a6daf;stop-opacity:0;"
+         offset="1"
+         id="stop4610" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4532">
+      <stop
+         style="stop-color:#0a6daf;stop-opacity:1;"
+         offset="0"
+         id="stop4534" />
+      <stop
+         style="stop-color:#7e9df5;stop-opacity:0;"
+         offset="1"
+         id="stop4536" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4414">
+      <stop
+         style="stop-color:#0a6daf;stop-opacity:1;"
+         offset="0"
+         id="stop4416" />
+      <stop
+         style="stop-color:#0a6daf;stop-opacity:0;"
+         offset="1"
+         id="stop4418" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4126">
+      <stop
+         style="stop-color:#0027e3;stop-opacity:1;"
+         offset="0"
+         id="stop4128" />
+      <stop
+         style="stop-color:#0027e3;stop-opacity:0;"
+         offset="1"
+         id="stop4130" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4414"
+       id="linearGradient4482"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.67579404,238.35725,326.5806)"
+       x1="290.78897"
+       y1="981.98401"
+       x2="289.96078"
+       y2="1034.226" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4606"
+       id="linearGradient4612"
+       x1="767.49731"
+       y1="913.71863"
+       x2="767.99109"
+       y2="1016.2435"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4616"
+       id="linearGradient4622"
+       x1="877.63647"
+       y1="913.51892"
+       x2="878.63086"
+       y2="1013.7138"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.0372279,0,-37.553573)" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.85832732"
+     inkscape:cx="481.89618"
+     inkscape:cy="391.72258"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1365"
+     inkscape:window-height="858"
+     inkscape:window-x="4"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-308.2677)">
+    <path
+       style="fill:#cccccc;stroke:#cccccc;stroke-width:0.98910439px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 119.28273,371.18195 0,608.53585"
+       id="path3023"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3036"
+       d="m 237.04233,371.18195 0,608.53585"
+       style="fill:#cccccc;stroke:#cccccc;stroke-width:0.98910439px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:#cccccc;stroke:#cccccc;stroke-width:0.98910439px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 354.80194,371.18195 0,608.53585"
+       id="path3038"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3040"
+       d="m 472.56151,371.18195 0,608.53585"
+       style="fill:#cccccc;stroke:#cccccc;stroke-width:0.98910439px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:#cccccc;stroke:#cccccc;stroke-width:0.98910439px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 590.3211,371.18195 0,608.53585"
+       id="path3042"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3044"
+       d="m 708.08071,371.18195 0,608.53585"
+       style="fill:#cccccc;stroke:#cccccc;stroke-width:0.98910439px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:#cccccc;stroke:#cccccc;stroke-width:0.98910439px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 825.84036,371.18195 0,608.53585"
+       id="path3046"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#cccccc;stroke:#cccccc;stroke-width:0.97215801px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 64.255538,406.69106 879.034942,0"
+       id="path3818"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3820"
+       d="m 64.255538,448.92312 879.034942,0"
+       style="fill:#cccccc;stroke:#cccccc;stroke-width:0.97215801px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:#cccccc;stroke:#cccccc;stroke-width:0.97215801px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 64.255537,491.15526 879.034943,0"
+       id="path3822"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3824"
+       d="m 64.255537,533.38736 879.034943,0"
+       style="fill:#cccccc;stroke:#cccccc;stroke-width:0.97215801px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:#cccccc;stroke:#cccccc;stroke-width:0.97215801px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 64.255537,575.61947 879.034943,0"
+       id="path3826"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3828"
+       d="m 64.255537,617.85158 879.034943,0"
+       style="fill:#cccccc;stroke:#cccccc;stroke-width:0.97215801px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:#cccccc;stroke:#cccccc;stroke-width:0.97215801px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 64.255537,660.08372 879.034943,0"
+       id="path3830"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3832"
+       d="m 64.255536,702.31579 879.034944,0"
+       style="fill:#cccccc;stroke:#cccccc;stroke-width:0.97215801px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3844"
+       d="m 64.255536,955.70845 879.034944,0"
+       style="fill:#cccccc;stroke:#cccccc;stroke-width:0.97215801px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:#cccccc;stroke:#cccccc;stroke-width:0.97215801px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 64.255536,913.47634 879.034944,0"
+       id="path3846"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3848"
+       d="m 64.255536,871.24422 879.034944,0"
+       style="fill:#cccccc;stroke:#cccccc;stroke-width:0.97215801px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:#cccccc;stroke:#cccccc;stroke-width:0.97215801px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 64.255536,829.01212 879.034944,0"
+       id="path3850"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3852"
+       d="m 64.255536,786.78002 879.034944,0"
+       style="fill:#cccccc;stroke:#cccccc;stroke-width:0.97215801px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:#cccccc;stroke:#cccccc;stroke-width:0.97215801px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 64.255536,744.5479 879.034944,0"
+       id="path3854"
+       inkscape:connector-curvature="0" />
+    <path
+       id="rect4192"
+       style="opacity:0.8;fill:#16a837;fill-opacity:0.88235294;stroke:none"
+       d="m 358.79187,771.7172 52.84596,0 0,87.49312 -52.84596,0 z m 0,-343.58376 109.59245,0 0,343.8346 -109.59245,0 z"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccc" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3866"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#808080;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(-33.889059,285.51996)"><flowRegion
+         id="flowRegion3868"><rect
+           id="rect3870"
+           width="45.546429"
+           height="21.574623"
+           x="70.71682"
+           y="114.83463"
+           style="fill:#808080" /></flowRegion><flowPara
+         id="flowPara3872">9am</flowPara></flowRoot>    <flowRoot
+       transform="translate(-40.256246,327.75202)"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#808080;fill-opacity:1;stroke:none;font-family:Sans"
+       id="flowRoot3874"
+       xml:space="preserve"><flowRegion
+         id="flowRegion3876"><rect
+           y="114.83463"
+           x="70.71682"
+           height="21.574623"
+           width="45.546429"
+           id="rect3878"
+           style="fill:#808080" /></flowRegion><flowPara
+         id="flowPara3880">10am</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3882"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#808080;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(-40.256246,369.91824)"><flowRegion
+         id="flowRegion3884"><rect
+           id="rect3886"
+           width="45.546429"
+           height="21.574623"
+           x="70.71682"
+           y="114.83463"
+           style="fill:#808080" /></flowRegion><flowPara
+         id="flowPara3888">11am</flowPara></flowRoot>    <flowRoot
+       transform="translate(-40.47109,411.24702)"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#808080;fill-opacity:1;stroke:none;font-family:Sans"
+       id="flowRoot3890"
+       xml:space="preserve"><flowRegion
+         id="flowRegion3892"><rect
+           y="114.83463"
+           x="70.71682"
+           height="21.574623"
+           width="45.546429"
+           id="rect3894"
+           style="fill:#808080" /></flowRegion><flowPara
+         id="flowPara3896">12pm</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3898"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#808080;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(-34.103902,453.41321)"><flowRegion
+         id="flowRegion3900"><rect
+           id="rect3902"
+           width="45.546429"
+           height="21.574623"
+           x="70.71682"
+           y="114.83463"
+           style="fill:#808080" /></flowRegion><flowPara
+         id="flowPara3904">1pm</flowPara></flowRoot>    <flowRoot
+       transform="translate(-34.103902,495.71124)"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#808080;fill-opacity:1;stroke:none;font-family:Sans"
+       id="flowRoot3906"
+       xml:space="preserve"><flowRegion
+         id="flowRegion3908"><rect
+           y="114.83463"
+           x="70.71682"
+           height="21.574623"
+           width="45.546429"
+           id="rect3910"
+           style="fill:#808080" /></flowRegion><flowPara
+         id="flowPara3912">2pm</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3914"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#808080;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(-34.103902,537.94338)"><flowRegion
+         id="flowRegion3916"><rect
+           id="rect3918"
+           width="45.546429"
+           height="21.574623"
+           x="70.71682"
+           y="114.83463"
+           style="fill:#808080" /></flowRegion><flowPara
+         id="flowPara3920">3pm</flowPara></flowRoot>    <flowRoot
+       transform="translate(-34.103902,580.10953)"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#808080;fill-opacity:1;stroke:none;font-family:Sans"
+       id="flowRoot3922"
+       xml:space="preserve"><flowRegion
+         id="flowRegion3924"><rect
+           y="114.83463"
+           x="70.71682"
+           height="21.574623"
+           width="45.546429"
+           id="rect3926"
+           style="fill:#808080" /></flowRegion><flowPara
+         id="flowPara3928">4pm</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3930"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#808080;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(-34.103902,622.34164)"><flowRegion
+         id="flowRegion3932"><rect
+           id="rect3934"
+           width="45.546429"
+           height="21.574623"
+           x="70.71682"
+           y="114.83463"
+           style="fill:#808080" /></flowRegion><flowPara
+         id="flowPara3936">5pm</flowPara></flowRoot>    <flowRoot
+       transform="translate(-34.103902,664.63968)"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#808080;fill-opacity:1;stroke:none;font-family:Sans"
+       id="flowRoot3938"
+       xml:space="preserve"><flowRegion
+         id="flowRegion3940"><rect
+           y="114.83463"
+           x="70.71682"
+           height="21.574623"
+           width="45.546429"
+           id="rect3942"
+           style="fill:#808080" /></flowRegion><flowPara
+         id="flowPara3944">6pm</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3946"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#808080;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(-34.103902,706.80586)"><flowRegion
+         id="flowRegion3948"><rect
+           id="rect3950"
+           width="45.546429"
+           height="21.574623"
+           x="70.71682"
+           y="114.83463"
+           style="fill:#808080" /></flowRegion><flowPara
+         id="flowPara3952">7pm</flowPara></flowRoot>    <flowRoot
+       transform="translate(-34.103902,749.10388)"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#808080;fill-opacity:1;stroke:none;font-family:Sans"
+       id="flowRoot3954"
+       xml:space="preserve"><flowRegion
+         id="flowRegion3956"><rect
+           y="114.83463"
+           x="70.71682"
+           height="21.574623"
+           width="45.546429"
+           id="rect3958"
+           style="fill:#808080" /></flowRegion><flowPara
+         id="flowPara3960">8pm</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3962"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#808080;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(-34.103902,791.336)"><flowRegion
+         id="flowRegion3964"><rect
+           id="rect3966"
+           width="45.546429"
+           height="21.574623"
+           x="70.71682"
+           y="114.83463"
+           style="fill:#808080" /></flowRegion><flowPara
+         id="flowPara3968">9pm</flowPara></flowRoot>    <flowRoot
+       transform="translate(-40.47109,833.56811)"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#808080;fill-opacity:1;stroke:none;font-family:Sans"
+       id="flowRoot3970"
+       xml:space="preserve"><flowRegion
+         id="flowRegion3972"><rect
+           y="114.83463"
+           x="70.71682"
+           height="21.574623"
+           width="45.546429"
+           id="rect3974"
+           style="fill:#808080" /></flowRegion><flowPara
+         id="flowPara3976">10pm</flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;font-family:Sans"
+       x="123.45479"
+       y="387.53476"
+       id="text3978"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3980"
+         x="123.45479"
+         y="387.53476">Mo</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;font-family:Sans"
+       x="240.94954"
+       y="387.53476"
+       id="text3982"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3984"
+         x="240.94954"
+         y="387.53476">Tue</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:9.89104366px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;font-family:Sans"
+       x="352.88223"
+       y="391.87753"
+       id="text3986"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0110157,0.98910435)"><tspan
+         sodipodi:role="line"
+         id="tspan3988"
+         x="352.88223"
+         y="391.87753">Wed</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;font-family:Sans"
+       x="471.73492"
+       y="387.68857"
+       id="text3990"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3992"
+         x="471.73492"
+         y="387.68857">Thurs</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;font-family:Sans"
+       x="597.72089"
+       y="387.75937"
+       id="text3994"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3996"
+         x="597.72089"
+         y="387.75937">Fri</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;font-family:Sans"
+       x="713.46759"
+       y="387.60068"
+       id="text3998"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4000"
+         x="713.46759"
+         y="387.60068">Sat</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;font-family:Sans"
+       x="830.62299"
+       y="387.60068"
+       id="text4002"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4004"
+         x="830.62299"
+         y="387.60068">Sun</tspan></text>
+    <rect
+       style="opacity:0.8;fill:#e3ff73;fill-opacity:1;stroke:none"
+       id="rect4006"
+       width="109.59245"
+       height="162.40346"
+       x="594.11273"
+       y="426.65759" />
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="603.49042"
+       y="446.43771"
+       id="text4032"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4034"
+         x="603.49042"
+         y="446.43771">IT-Student Labs</tspan></text>
+    <rect
+       y="426.96838"
+       x="122.66961"
+       height="400.19379"
+       width="109.59245"
+       id="rect4036"
+       style="opacity:0.8;fill:#16a837;fill-opacity:0.88405798;stroke:none" />
+    <rect
+       style="opacity:0.8;fill:#16a837;fill-opacity:0.88405798;stroke:none"
+       id="rect4038"
+       width="109.59245"
+       height="400.19379"
+       x="241.33003"
+       y="426.96838" />
+    <rect
+       style="opacity:0.8;fill:#16a837;fill-opacity:0.88405798;stroke:none"
+       id="rect4042"
+       width="109.59245"
+       height="317.49106"
+       x="476.65088"
+       y="426.96838" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4044"
+       y="469.23914"
+       x="131.65012"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="469.23914"
+         x="131.65012"
+         id="tspan4046"
+         sodipodi:role="line">Hackership</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+       x="250.31055"
+       y="469.23914"
+       id="text4048"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4050"
+         x="250.31055"
+         y="469.23914">Hackership</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4052"
+       y="469.23914"
+       x="365.37521"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="469.23914"
+         x="365.37521"
+         id="tspan4054"
+         sodipodi:role="line">Hackership</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+       x="481.63846"
+       y="469.23914"
+       id="text4056"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4058"
+         x="481.63846"
+         y="469.23914">Hackership</tspan></text>
+    <rect
+       y="756.24878"
+       x="476.65088"
+       height="70.112007"
+       width="109.59245"
+       id="rect4060"
+       style="opacity:0.8;fill:#16a837;fill-opacity:0.88405798;stroke:none" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4062"
+       y="776.43311"
+       x="486.43283"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;opacity:1"
+       xml:space="preserve"><tspan
+         y="776.43311"
+         x="486.43283"
+         id="tspan4064"
+         sodipodi:role="line">Hackership</tspan><tspan
+         y="788.93311"
+         x="486.43283"
+         sodipodi:role="line"
+         id="tspan4066">Weekly Demos</tspan></text>
+    <rect
+       y="620.38971"
+       x="594.11273"
+       height="204.18506"
+       width="109.59245"
+       id="rect4068"
+       style="opacity:0.80000000000000004;fill:#ffa94b;fill-opacity:1;stroke:none" />
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;font-family:Sans"
+       x="608.0824"
+       y="461.87555"
+       id="text4070"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4072"
+         x="608.0824"
+         y="461.87555">Workshops for</tspan><tspan
+         sodipodi:role="line"
+         x="608.0824"
+         y="474.37555"
+         id="tspan4074">pupils on coding</tspan><tspan
+         sodipodi:role="line"
+         x="608.0824"
+         y="486.87555"
+         id="tspan4078">and hacking</tspan><tspan
+         sodipodi:role="line"
+         x="608.0824"
+         y="499.37555"
+         id="tspan4082" /><tspan
+         sodipodi:role="line"
+         x="608.0824"
+         y="511.87555"
+         id="tspan4084">see itlabsberlin.de</tspan></text>
+    <rect
+       y="844.59235"
+       x="239.73427"
+       height="164.80064"
+       width="109.59245"
+       id="rect4134"
+       style="opacity:0.80000000000000004;fill:#0a6daf;fill-opacity:1;stroke:none" />
+    <rect
+       style="opacity:0.80000000000000004;fill:#0a6daf;fill-opacity:1;stroke:none"
+       id="rect4436"
+       width="109.59245"
+       height="164.80064"
+       x="124.56434"
+       y="844.59235" />
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="132.07004"
+       y="862.58777"
+       id="text4146"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4148"
+         x="132.07004"
+         y="862.58777"
+         style="fill:#ffffff;fill-opacity:1">OpenTechSchool</tspan><tspan
+         sodipodi:role="line"
+         x="132.07004"
+         y="875.08777"
+         id="tspan4150"
+         style="fill:#ffffff;fill-opacity:1">Python Continuous</tspan><tspan
+         sodipodi:role="line"
+         x="132.07004"
+         y="887.58777"
+         id="tspan4152"
+         style="fill:#ffffff;fill-opacity:1">Learning Group</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4154"
+       y="862.58777"
+       x="245.93611"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="fill:#ffffff;fill-opacity:1"
+         y="862.58777"
+         x="245.93611"
+         id="tspan4156"
+         sodipodi:role="line">OpenTechSchool</tspan><tspan
+         style="fill:#ffffff;fill-opacity:1"
+         id="tspan4158"
+         y="875.08777"
+         x="245.93611"
+         sodipodi:role="line">Javascript</tspan><tspan
+         style="fill:#ffffff;fill-opacity:1"
+         y="887.58777"
+         x="245.93611"
+         sodipodi:role="line"
+         id="tspan4162">Continuous</tspan><tspan
+         style="fill:#ffffff;fill-opacity:1"
+         id="tspan4160"
+         y="900.08777"
+         x="245.93611"
+         sodipodi:role="line">Learning Group</tspan></text>
+    <path
+       id="rect4179"
+       style="opacity:0.80000000000000004;fill:#0a6daf;fill-opacity:1;stroke:none"
+       d="m 415.52985,771.99176 53.00794,0 0,99.36477 -53.00794,0 z m -56.74726,99.32166 109.75521,0 0,140.82888 -109.75521,0 z"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="366.99371"
+       y="892.55957"
+       id="text4164"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4166"
+         x="366.99371"
+         y="892.55957"
+         style="fill:#ffffff;fill-opacity:1">OpenTechSchool</tspan><tspan
+         sodipodi:role="line"
+         x="366.99371"
+         y="905.05957"
+         id="tspan4172"
+         style="fill:#ffffff;fill-opacity:1">Learners Meetup</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4195"
+       y="793.08362"
+       x="415.40442"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1"
+         id="tspan4199"
+         y="793.08362"
+         x="415.40442"
+         sodipodi:role="line">public</tspan><tspan
+         style="text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1"
+         y="805.58362"
+         x="415.40442"
+         sodipodi:role="line"
+         id="tspan4227">Hackership/</tspan><tspan
+         style="text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1"
+         y="818.08362"
+         x="415.40442"
+         sodipodi:role="line"
+         id="tspan4229">OpenTechSchool</tspan><tspan
+         style="text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1"
+         y="830.58362"
+         x="415.40442"
+         sodipodi:role="line"
+         id="tspan4231">Guest</tspan><tspan
+         style="text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1"
+         y="843.08362"
+         x="415.40442"
+         sodipodi:role="line"
+         id="tspan4203">Presentation</tspan><tspan
+         style="text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1"
+         y="855.58362"
+         x="415.40442"
+         sodipodi:role="line"
+         id="tspan4205" /></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4213"
+       y="636.06128"
+       x="599.5202"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#141414;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="fill:#141414;fill-opacity:1"
+         y="636.06128"
+         x="599.5202"
+         id="tspan4215"
+         sodipodi:role="line">OpenTechSchool</tspan><tspan
+         style="fill:#141414;fill-opacity:1"
+         id="tspan4217"
+         y="648.56128"
+         x="599.5202"
+         sodipodi:role="line">YouthHackClub</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4235"
+       y="666.82037"
+       x="608.88385"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#4f4f4f;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         id="tspan4245"
+         y="666.82037"
+         x="608.88385"
+         sodipodi:role="line">Open Hacking</tspan><tspan
+         y="679.32037"
+         x="608.88385"
+         sodipodi:role="line"
+         id="tspan4261">Afternoon for the</tspan><tspan
+         y="691.82037"
+         x="608.88385"
+         sodipodi:role="line"
+         id="tspan4263">ages 12-18yrs</tspan><tspan
+         y="704.32037"
+         x="608.88385"
+         sodipodi:role="line"
+         id="tspan4380">assisted by</tspan><tspan
+         y="716.82037"
+         x="608.88385"
+         sodipodi:role="line"
+         id="tspan4382">OTS Coaches</tspan></text>
+    <rect
+       y="844.59235"
+       x="598.01074"
+       height="164.80064"
+       width="109.59245"
+       id="rect4440"
+       style="opacity:0.80000000000000004;fill:#0a6daf;fill-opacity:1;stroke:none" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4265"
+       y="866.19061"
+       x="605.25696"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="fill:#ffffff;fill-opacity:1"
+         y="866.19061"
+         x="605.25696"
+         id="tspan4267"
+         sodipodi:role="line">OpenTechSchool</tspan><tspan
+         style="fill:#ffffff;fill-opacity:1"
+         id="tspan4269"
+         y="878.69061"
+         x="605.25696"
+         sodipodi:role="line">OpenHackNight</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#cacaca;fill-opacity:1;stroke:none;font-family:Sans"
+       x="369.56299"
+       y="925.71588"
+       id="text4271"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="369.56299"
+         y="925.71588"
+         id="tspan4288">Language acnostic</tspan><tspan
+         sodipodi:role="line"
+         x="369.56299"
+         y="938.21588"
+         id="tspan4294">short presentations</tspan><tspan
+         sodipodi:role="line"
+         x="369.56299"
+         y="950.71588"
+         id="tspan4292">followed by the </tspan><tspan
+         sodipodi:role="line"
+         x="369.56299"
+         y="963.21588"
+         id="tspan4296">known and loved</tspan><tspan
+         sodipodi:role="line"
+         x="369.56299"
+         y="975.71588"
+         id="tspan4298">mini-bar-camps</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#cacaca;fill-opacity:1;stroke:none;font-family:Sans"
+       x="610.23047"
+       y="899.34692"
+       id="text4332"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="610.23047"
+         y="899.34692"
+         id="tspan4334">come and hack</tspan><tspan
+         id="tspan4336"
+         sodipodi:role="line"
+         x="610.23047"
+         y="911.84692">with fellow OTS</tspan><tspan
+         id="tspan4338"
+         sodipodi:role="line"
+         x="610.23047"
+         y="924.34692">people over beers</tspan><tspan
+         id="tspan4340"
+         sodipodi:role="line"
+         x="610.23047"
+         y="936.84692">and snacks</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4352"
+       y="908.93567"
+       x="138.24214"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#cacaca;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         id="tspan4354"
+         y="908.93567"
+         x="138.24214"
+         sodipodi:role="line">come and hack</tspan><tspan
+         y="921.43567"
+         x="138.24214"
+         sodipodi:role="line"
+         id="tspan4356">with fellow OTS</tspan><tspan
+         y="933.93567"
+         x="138.24214"
+         sodipodi:role="line"
+         id="tspan4358">people over beers</tspan><tspan
+         y="946.43567"
+         x="138.24214"
+         sodipodi:role="line"
+         id="tspan4360">and snacks,</tspan><tspan
+         y="958.93567"
+         x="138.24214"
+         sodipodi:role="line"
+         id="tspan4362">there will be</tspan><tspan
+         y="971.43567"
+         x="138.24214"
+         sodipodi:role="line"
+         id="tspan4364">Python coaches</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#cacaca;fill-opacity:1;stroke:none;font-family:Sans"
+       x="254.50539"
+       y="918.52441"
+       id="text4366"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="254.50539"
+         y="918.52441"
+         id="tspan4368">come and hack</tspan><tspan
+         id="tspan4370"
+         sodipodi:role="line"
+         x="254.50539"
+         y="931.02441">with fellow OTS</tspan><tspan
+         id="tspan4372"
+         sodipodi:role="line"
+         x="254.50539"
+         y="943.52441">people over beers</tspan><tspan
+         id="tspan4374"
+         sodipodi:role="line"
+         x="254.50539"
+         y="956.02441">and snacks,</tspan><tspan
+         id="tspan4376"
+         sodipodi:role="line"
+         x="254.50539"
+         y="968.52441">there will be</tspan><tspan
+         id="tspan4378"
+         sodipodi:role="line"
+         x="254.50539"
+         y="981.02441">javascriot coaches</tspan></text>
+    <path
+       id="rect4386"
+       style="opacity:0.80000000000000004;fill:url(#linearGradient4612);fill-opacity:1;stroke:none"
+       d="m 711.57458,730.66081 110.00909,0 0,277.97839 -110.00909,0 z m 0,-277.69066 109.59246,0 0,277.97835 -109.59246,0 z"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="720.21106"
+       y="485.02982"
+       id="text4400"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4402"
+         x="720.21106"
+         y="485.02982"
+         style="fill:#ffffff;fill-opacity:1">OpenTechSchool</tspan><tspan
+         sodipodi:role="line"
+         x="720.21106"
+         y="497.52982"
+         id="tspan4404"
+         style="fill:#ffffff;fill-opacity:1">Creative code Jam</tspan></text>
+    <rect
+       style="opacity:0.8;fill:#0a6daf;fill-opacity:1;stroke:none"
+       id="rect4444"
+       width="109.59245"
+       height="49.630711"
+       x="476.90421"
+       y="843.40503" />
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="484.15042"
+       y="865.0033"
+       id="text4446"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4448"
+         x="484.15042"
+         y="865.0033"
+         style="fill:#ffffff;fill-opacity:1">OpenTechSchool</tspan><tspan
+         sodipodi:role="line"
+         x="484.15042"
+         y="877.5033"
+         id="tspan4450"
+         style="fill:#ffffff;fill-opacity:1">Organisers Meetup</tspan></text>
+    <rect
+       style="opacity:0.8;fill:url(#linearGradient4482);fill-opacity:1;stroke:none"
+       id="rect4480"
+       width="109.59245"
+       height="111.37129"
+       x="478.09152"
+       y="899.20905" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4474"
+       y="920.80731"
+       x="484.15042"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="fill:#ffffff;fill-opacity:1"
+         id="tspan4478"
+         y="920.80731"
+         x="484.15042"
+         sodipodi:role="line">OpenTechSchool</tspan><tspan
+         style="fill:#ffffff;fill-opacity:1"
+         y="933.30731"
+         x="484.15042"
+         sodipodi:role="line"
+         id="tspan4486">Drinks</tspan></text>
+    <rect
+       style="opacity:0.8;fill:#0a6daf;fill-opacity:1;stroke:none"
+       id="rect4492"
+       width="110.5097"
+       height="188.13066"
+       x="828.7041"
+       y="452.46069" />
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="839.04681"
+       y="484.4469"
+       id="text4556"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="839.04681"
+         y="484.4469"
+         id="tspan4558"
+         style="fill:#ffffff;fill-opacity:1">OpenTechSchool</tspan><tspan
+         sodipodi:role="line"
+         x="839.04681"
+         y="496.9469"
+         style="fill:#ffffff;fill-opacity:1"
+         id="tspan4576">Workshop:</tspan><tspan
+         sodipodi:role="line"
+         x="839.04681"
+         y="509.4469"
+         style="fill:#ffffff;fill-opacity:1"
+         id="tspan4586" /><tspan
+         sodipodi:role="line"
+         x="839.04681"
+         y="521.9469"
+         style="fill:#ffffff;fill-opacity:1"
+         id="tspan4588">Big Data in Python</tspan><tspan
+         sodipodi:role="line"
+         x="839.04681"
+         y="534.4469"
+         style="fill:#ffffff;fill-opacity:1"
+         id="tspan4590">Introduction</tspan></text>
+    <rect
+       y="651.68542"
+       x="828.7041"
+       height="357.06387"
+       width="110.5097"
+       id="rect4592"
+       style="opacity:0.8;fill:url(#linearGradient4622);fill-opacity:1;stroke:none" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4594"
+       y="696.48724"
+       x="839.04681"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="fill:#ffffff;fill-opacity:1"
+         id="tspan4596"
+         y="696.48724"
+         x="839.04681"
+         sodipodi:role="line">OpenTechSchool</tspan><tspan
+         id="tspan4598"
+         style="fill:#ffffff;fill-opacity:1"
+         y="708.98724"
+         x="839.04681"
+         sodipodi:role="line">Workshop:</tspan><tspan
+         id="tspan4600"
+         style="fill:#ffffff;fill-opacity:1"
+         y="721.48724"
+         x="839.04681"
+         sodipodi:role="line" /><tspan
+         id="tspan4602"
+         style="fill:#ffffff;fill-opacity:1"
+         y="733.98724"
+         x="839.04681"
+         sodipodi:role="line">Big Data in Python</tspan><tspan
+         id="tspan4604"
+         style="fill:#ffffff;fill-opacity:1"
+         y="746.48724"
+         x="839.04681"
+         sodipodi:role="line">Part II: Hack your</tspan><tspan
+         style="fill:#ffffff;fill-opacity:1"
+         y="758.98724"
+         x="839.04681"
+         sodipodi:role="line"
+         id="tspan4614">own Data</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:15.57666683px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="44.120037"
+       y="336.59409"
+       id="text4624"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="44.120037"
+         y="336.59409"
+         id="tspan4630"
+         style="fill:#606060;fill-opacity:1">OpenTechSchool Hackership Learning Space</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="83.884087"
+       y="41.565289"
+       id="text4648"
+       sodipodi:linespacing="125%"
+       transform="translate(0,308.2677)"><tspan
+         sodipodi:role="line"
+         id="tspan4650"
+         x="83.884087"
+         y="41.565289">an example week</tspan></text>
+  </g>
+</svg>
