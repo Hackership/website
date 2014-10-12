@@ -109,17 +109,28 @@ h2, h3, h4, h5 {
 }
 
 .promo {
-    background-color: #222;
+    /*background-color: #222;*/
+    background: url(http://www.makemoneyinlife.com/wp-content/uploads/2012/05/Laptop-On-Beach.jpg);
+    background-size: 100% auto;
     position: relative;
-    margin: 20px 0 40px;
-    padding: 2em 0;
+    /*padding: 50vh 0 0 0 ;*/
     text-align: center;
 }
 
+
 .promo h1 {
+    padding: 10vh 0;
     font-size: 4em;
     line-height: 1.2em
 }
+
+.promo .blocker {
+    display: block;
+    /*margin-top: 20vh;*/
+    padding: 5vh 0 2vh 0;
+    background: rgba(0, 0, 0, 0.65);
+}
+
 .promo .description {
     margin: 1em 2em 0;
     font-size: 1.25em;
