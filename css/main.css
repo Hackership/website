@@ -109,14 +109,28 @@ h2, h3, h4, h5 {
 }
 
 .promo {
-    /*background-color: #222;*/
-    background: url(/assets/beach_bg.jpg);
-    background-size: 100% auto;
+    background-color: #222;
     position: relative;
-    padding-top: 40vh;
+    padding-top: 5vh;
     text-align: center;
 }
 
+.beach {
+    background: url(/assets/beach_bg.jpg);
+    background-size: 100% auto;
+    position: relative;
+    height: 50vh;
+}
+
+.in-beach {
+    background: rgba(0, 0, 0, 0.35);
+    position: absolute;
+    color: #eee;
+    bottom: 4vh;
+    left: 0;
+    right: 0;
+    padding: 6vh 0 3vh 0;
+}
 
 .with-promo .main {
     padding-top: 0;
@@ -129,10 +143,14 @@ h2, h3, h4, h5 {
 
 .promo h1 {
     margin: 0;
-    padding: 6vh 0 3vh;
+    /*padding: 6vh 0 3vh;*/
     font-size: 3em;
     color: #eee;
-    line-height: 1.2em
+    line-height: 1.2em;
+}
+
+.promo h3 {
+    margin-top: 0;
 }
 
 .promo .blocker {
@@ -242,10 +260,12 @@ em {
     margin-left: 20px;
 }
 
+.hacker,
 .site-logo .hacker, .marker {
     color: #20A260;
 }
 
+.ship, 
 .site-logo .ship {
     color: white;
 }
