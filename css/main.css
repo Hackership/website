@@ -113,7 +113,7 @@ h2, h3, h4, h5 {
     background: url(/assets/beach_bg.jpg);
     background-size: 100% auto;
     position: relative;
-    /*padding: 50vh 0 0 0 ;*/
+    padding-top: 40vh;
     text-align: center;
 }
 
@@ -129,16 +129,16 @@ h2, h3, h4, h5 {
 
 .promo h1 {
     margin: 0;
-    padding: 10vh 0;
-    font-size: 4em;
+    padding: 6vh 0 3vh;
+    font-size: 3em;
+    color: #eee;
     line-height: 1.2em
 }
 
 .promo .blocker {
     display: block;
-    /*margin-top: 20vh;*/
     padding: 5vh 0 2vh 0;
-    background: rgba(255, 255, 255, 0.35);
+    background: rgba(0, 0, 0, 0.35);
 }
 
 .promo .description {
