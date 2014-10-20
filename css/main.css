@@ -80,8 +80,7 @@ textarea {
 body {
     font: 16px/26px Helvetica, Helvetica Neue, Arial, sans-serif;
     font-weight: 300;
-    background-color: #222;
-    color: #fff;
+    color: #333;
 }
 
 h1 {
@@ -99,19 +98,19 @@ h2, h3, h4, h5 {
 
 
 .header-container {
-    max-width: 720px;
-    padding: 0 10px;
-    margin: 0 auto;
+    background-color: #222;
 }
 
 .site-header {
   padding: 0.8em 0;
+  max-width: 720px;
+  margin: auto;
 }
 
 .promo {
     /*background-color: #222;*/
     position: relative;
-    padding-top: 5vh;
+    margin-top: 0;
     text-align: center;
 }
 
@@ -121,7 +120,7 @@ h2, h3, h4, h5 {
     z-index: 0;
     height: 36em;
     margin-bottom: 3em;
-    background: url(/assets/beach_bg.jpg) no-repeat scroll center center / cover transparent;
+    background: url(/assets/HS-beach-7-v3.jpg) no-repeat scroll center center / cover transparent;
 }
 
 .in-beach {
@@ -421,6 +420,13 @@ a.btn-learn-more:hover {
 nav.site-nav {
     text-align: right;
     padding: 0 120px 0px 0px;
+}
+
+.promo .site-nav {
+    background: rgba(255, 255, 255, 0.5);
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-top: 20px;
 }
 
 nav ul {
