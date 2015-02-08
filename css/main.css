@@ -10,35 +10,16 @@
 	color: #20a260
 }
 
+.green-hs-soft {
+    background-color:#e8f5e9
+}
+
 .green-hs {
 	background-color: #20a260;
 }
 
-.site-logo {
-    float: left;
-    color: #fff;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 32px;
-    text-decoration: none;
-    text-transform: uppercase;
-    text-shadow: 2px 2px 0 #000;
-}
-
-.header-container {
-	 padding: 1.2em 0;
-	 margin: auto;
-}
-
-.tagline {
-	float: left;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 32px;
-    text-decoration: none;
-    text-transform: uppercase;
-    text-shadow: 2px 2px 0 #000;
-    margin: 20px;
+.green-hs:hover button {
+    background-color: #222;
 }
 
 .offer {
