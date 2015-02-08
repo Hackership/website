@@ -17,6 +17,8 @@
         <link rel="stylesheet" href="/css/materialize.css">
         <link rel="stylesheet" href="/css/main.css">
 
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="/js/materialize.min.js"></script>
         <script src="/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 
           <script type="text/javascript">
@@ -29,20 +31,11 @@
           }
           </script>
     </head>
-    <body class="{{page.body_tags}}"><div id="pledgeRibbon"><a href="/apply/">Apply now</a></div>
+    <body>
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
-        <div class="header-container">
-            <header class="site-header clearfix" role="banner">
-                <div class="site-logo">
-                    <a href="/"><span class="hacker">Hacker</span><span class="ship">ship</span></a><br>
-                </div>
-                <div class="site-claim">time to become a better hacker</div>
-            </header><!-- end site-header -->
-        </div>
-
-
+      
         {{content}}
 
         <!-- <div class="container" style="background-color: white; text-align: center; color: #999; line-height: 50px; padding: 50px;">
@@ -52,34 +45,38 @@
         </div> -->
 
 
-        <footer>
-            <div class="connect">
-                <h3>Connect</h3>
-                    <ul>
-                        <li><a href="https://www.facebook.com/hackership">Facebook</a></li>
-                        <li><a href="https://www.twitter.com/hacker_ship">Twitter</a></li>
-                        <li><a href="https://plus.google.com/114286322233180061886" rel="publisher">Google+</a></li>
-                    </ul>
-                    <p>or email us: <br /><a href="mailto:team |at| hackership |dot| org">team at hackership dot org</a></p>
-            </div>
-            <div class="newsletter">
-                <h3>Newsletter</h3>
-                <p>Stay up to date with Hackership</p>
-                <form action="http://hackership.us7.list-manage1.com/subscribe/post?u=d893774e9260bf62c4533f5d1&amp;id=eec4326c27" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                    <input type="email" value="" name="EMAIL" class="email"  placeholder="name@domain.com" required>
-                    <button type="submit" name="submit" id="ss-submit">subscribe</button>
-                </form>
+        <footer class="page-footer grey darken-4">
+                <div class= "container">
+                    <div class = "row">
+                        <div class= "col 16 s6">
+                            <h5 class="white-text">Connect</h5>
+                            <ul>
+                                <li><a href="https://www.facebook.com/hackership" class="grey-text text-lighten-4">Facebook <i class="mdi-social-cake"></i></a></li>
+                                <li><a href="https://www.twitter.com/hacker_ship" class="grey-text text-lighten-4">Twitter</a></li>
+                             <li><a href="https://plus.google.com/114286322233180061886" class="grey-text text-lighten-4">Google+</a></li>
+                            </ul>
+                            <p class="grey-text text-lighten-4">Email: <a href="mailto:team |at| hackership |dot| org" class="grey-text text-lighten-4">team at hackership dot org</a></p>
+                        </div>
+                        <div class= "col s6 grey-text text-lighten-4">
+                            <h5 class="white-text">Newsletter</h5>
+                            <p>Stay up to date with Hackership</p>
+                            <form action="http://hackership.us7.list-manage1.com/subscribe/post?u=d893774e9260bf62c4533f5d1&amp;id=eec4326c27" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                            <input type="email" value="" name="EMAIL" class="email"  placeholder="name@domain.com" required>
+                             <button class="btn waves-effect white-waves green-hs"type="submit" name="action" id="ss-submit">subscribe
+                             <i class="mdi-content-send right"></i>
+                             </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-
-            <div class="imprint">
-               <strong>Imprint:</strong>
-                <address>
-                    Hash Picker UG //
-                    Licenced by <a href="http://www.opentechschool.org">OpenTechSchool</a>
-                </address>
+            <div class = "footer-copyright">
+                <div class="container">
+                    <span class="text-white">@ 2015 Copyright Hash Picker UG ||
+                    Licenced by <a href="http://www.opentechschool.org">OpenTechSchool</a></span>
             </div>
-                
+            </div>
         </footer>
         
 
