@@ -1,2 +1,2 @@
-web: python -m SimpleHTTPServer $PORT _site
+web: cd _site && python -m SimpleHTTPServer $PORT
  
