@@ -1,1 +1,2 @@
-web: jekyll serve -P $PORT
+web: python -m SimpleHTTPServer $PORT
+ 
