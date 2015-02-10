@@ -16,9 +16,13 @@
         <link rel="stylesheet" href="/css/normalize.min.css">
         <link rel="stylesheet" href="/css/materialize.css">
         <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
+        <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
 
         <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script type="text/javascript" src="/js/materialize.min.js"></script>
+        <script type="text/javascript" src="/js/main.js"></script>
         <script src="/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 
           <script type="text/javascript">
@@ -50,33 +54,35 @@
                     <div class = "row">
                         <div class= "col 16 s6">
                             <h5 class="white-text">Connect</h5>
-                            <ul>
-                                <li><a href="https://www.facebook.com/hackership" class="grey-text text-lighten-4">Facebook <i class="mdi-social-cake"></i></a></li>
-                                <li><a href="https://www.twitter.com/hacker_ship" class="grey-text text-lighten-4">Twitter</a></li>
-                             <li><a href="https://plus.google.com/114286322233180061886" class="grey-text text-lighten-4">Google+</a></li>
-                            </ul>
+                            <span style="padding-right:2vw;"><a href="https://www.facebook.com/hackership" class="grey-text text-lighten-4"><i class="fa fa-facebook-f fa-lg"></i> </a></span>
+                            <span style="padding-right:2vw;padding-top:1vw;"><a href="https://www.twitter.com/hacker_ship" class="grey-text text-lighten-4"><i class="fa fa-twitter fa-lg"></i> </a></span>  
+                            <span><a href="https://plus.google.com/114286322233180061886" class="grey-text text-lighten-4"><i class="fa fa-google-plus-square fa-lg"></i> </a></span>
+
                             <p class="grey-text text-lighten-4">Email: <a href="mailto:team |at| hackership |dot| org" class="grey-text text-lighten-4">team at hackership dot org</a></p>
                         </div>
                         <div class= "col s6 grey-text text-lighten-4">
                             <h5 class="white-text">Newsletter</h5>
                             <p>Stay up to date with Hackership</p>
-                            <form action="http://hackership.us7.list-manage1.com/subscribe/post?u=d893774e9260bf62c4533f5d1&amp;id=eec4326c27" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                            <input type="email" value="" name="EMAIL" class="email"  placeholder="name@domain.com" required>
-                             <button class="btn waves-effect white-waves green-hs"type="submit" name="action" id="ss-submit">subscribe
-                             <i class="mdi-content-send right"></i>
-                             </button>
-                            </form>
+                            <div class="row">
+                                <form class="col s12" action="http://hackership.us7.list-manage1.com/subscribe/post?u=d893774e9260bf62c4533f5d1&amp;id=eec4326c27" method="post" id="mc-embedded-subscribe-form" style="background-color:white;color:black;">
+                                    <div class="input-field col s12">
+                                        <input id="email" type="email" name="EMAIL" placeholder="name@domain.com" value="" class="email" required>
+                                    </div>
+                                    <button class="btn waves-effect white-waves"type="submit" name="action" id="ss-submit">subscribe
+                                        <i class="mdi-content-send right"></i>
+                                    </button>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class = "footer-copyright grey darken-4">
-                <div class="container">
-                    <span class="text-white">@ 2015 Copyright Hash Picker UG ||
-                    Licenced by <a href="http://www.opentechschool.org">OpenTechSchool</a></span>
-            </div>
-            </div>
+                <div class = "footer-copyright grey darken-4">
+                    <div class="container">
+                        <span class="text-white">@ 2015 Copyright Hash Picker UG ||
+                        Licenced by <a href="http://www.opentechschool.org">OpenTechSchool</a></span>
+                    </div>
+                </div>
         </footer>
         
 
