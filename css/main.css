@@ -25,6 +25,17 @@
 
 }
 
+.active a {
+    /*border-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: #20a260;*/
+    background-color:#424242; 
+    color: white;
+}
+
+.footer a {
+    color:white;
+}
 .section {
     padding-top: 3vw;
     padding-bottom: 3vw;
@@ -32,6 +43,10 @@
 
 body {
     color: #222;
+}
+
+.section strong {
+    color:#20a260;
 }
 
 .faq h5 {
@@ -59,3 +74,14 @@ h1, h2, h3, h4, h5 {
     font-weight: 300;
 }
 
+.hs-list {
+    list-style-type: disc;
+    list-style: disc;
+}
+
+.hs-list li{
+    list-style-type: disc;
+    list-style: disc;
+    color:#20a260;
+    font-weight: 300;
+}

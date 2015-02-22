@@ -9,11 +9,12 @@ layout: default
               <a href="/"><span class="green-text-hs">Hacker</span><span class="white-text">ship</span></a><br>
             </div>
             <ul id="nav-mobile" class="right side-nav">
-                <li><a href="/about/">About</a></li>
-                <li><a href="/hs-experience/">Experience</a></li>
-                <li><a href="/questions/">FAQ</a></li>
-                <li><a href="/coaches/">Coaches</a></li>
-                <li><a href="/alumni/">Alumni</a></li>
+
+                <li {% if page.url == '/about/index.html' %} class="active" {% endif %}><a href="/about/">About</a></li>
+                <li {% if page.url == '/hs-experience/index.html' %} class="active" {% endif %}><a href="/hs-experience/">Experience</a></li>
+                <li {% if page.url == '/questions/index.html' %} class="active" {% endif %}><a href="/questions/">FAQ</a></li>
+                <li {% if page.url == '/coaches/index.html' %} class="active" {% endif %}><a href="/coaches/">Coaches</a></li>
+                <li {% if page.url == '/alumni/index.html' %} class="active" {% endif %}><a href="/alumni/">Alumni</a></li>
                 <li><a href="/apply/" style="background-color:#20a260" >Apply</a></li>
                 <li><a href="http://blog.hackership.org/">Blog</a></li>
             </ul>
