@@ -21,8 +21,11 @@
 .offer p {
     padding-top: 8px;
 }
-.testimonials {
-
+.testimonial {
+    background-color: white;
+    padding:20px;
+    padding-left: 30px;
+    border-radius: 10px;
 }
 
 .active a {
