@@ -35,6 +35,9 @@
     background-color:#424242; 
     color: white;
 }
+.active {
+    color: white;
+}
 
 .footer a {
     color:white;

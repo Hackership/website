@@ -3,25 +3,27 @@ layout: default
 ---
 
 <div class="navbar-fixed">
-    <nav class="nav-wrapper">
-        <div class="container">
+    <nav>
+        <div class="nav-wrapper">
+            <div class="container">
             <div class="brand-logo">
               <a href="/"><span class="green-text-hs">Hacker</span><span class="white-text">ship</span></a>
-              <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a><br>
-            </div>
+              </div>
+              <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
             
-            <ul class="right right hide-on-med-and-down">
+            
+            <ul id="mobile-demo" class="right side-nav" style="background-color:#222;">
 
-                <li {% if page.url == '/about/index.html' %} class="active" {% endif %}><a href="/about/">About</a></li>
-                <li {% if page.url == '/hs-experience/index.html' %} class="active" {% endif %}><a href="/hs-experience/">Experience</a></li>
-                <li {% if page.url == '/questions/index.html' %} class="active" {% endif %}><a href="/questions/">FAQ</a></li>
-                <li {% if page.url == '/coaches/index.html' %} class="active" {% endif %}><a href="/coaches/">Coaches</a></li>
-                <li {% if page.url == '/alumni/index.html' %} class="active" {% endif %}><a href="/alumni/">Alumni</a></li>
-                <li><a href="/apply/" style="background-color:#20a260" >Apply</a></li>
-                <li><a href="http://blog.hackership.org/">Blog</a></li>
+                <li style="color:white"{% if page.url == '/about/index.html' %} class="active" {% endif %}><a href="/about/"><span style="color:white">About</span></a></li>
+                <li {% if page.url == '/hs-experience/index.html' %} class="active" {% endif %}><a href="/hs-experience/"><span style="color:white">Experience</span></a></li>
+                <li {% if page.url == '/questions/index.html' %} class="active" {% endif %}><a href="/questions/"><span style="color:white">FAQ</span></a></li>
+                <li {% if page.url == '/coaches/index.html' %} class="active" {% endif %}><a href="/coaches/"><span style="color:white">Coaches</span></a></li>
+                <li {% if page.url == '/alumni/index.html' %} class="active" {% endif %}><a href="/alumni/"><span style="color:white">Alumni</span></a></li>
+                <li><a href="/apply/" style="background-color:#20a260;color:white;" >Apply</a></li>
+                <li><a href="http://blog.hackership.org/"><span style="color:white">Blog</span></a></li>
             </ul>
 
-             <ul id="nav-mobile" class="side-nav">
+            <!--  <ul id="mobile-demo" class="side-nav">
                 <li ><a href="/about/">About</a></li>
                 <li ><a href="/hs-experience/">Experience</a></li>
                 <li ><a href="/questions/">FAQ</a></li>
@@ -29,10 +31,14 @@ layout: default
                 <li ><a href="/alumni/">Alumni</a></li>
                 <li><a href="/apply/">Apply</a></li>
                 <li><a href="http://blog.hackership.org/">Blog</a></li>
-            </ul>
+            </ul> -->
         </div>
-    </nav>
+   </div>
+</nav>
+<br /><br />
 </div>
+
+
 
     <div class="wrapper">
             {{content}}
