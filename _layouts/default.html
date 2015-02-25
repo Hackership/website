@@ -14,8 +14,15 @@
         <meta name="viewport" content="width=device-width">
 
         <link rel="stylesheet" href="/css/normalize.min.css">
+        <link rel="stylesheet" href="/css/materialize.css">
         <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
+        <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="/js/materialize.js"></script>
+        <script type="text/javascript" src="/js/main.js"></script>
         <script src="/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 
           <script type="text/javascript">
@@ -28,20 +35,13 @@
           }
           </script>
     </head>
-    <body class="{{page.body_tags}}"><div id="pledgeRibbon"><a href="/apply/">Apply now for Jan 2015!</a></div>
+
+    <body>
+
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
-        <div class="header-container">
-            <header class="site-header clearfix" role="banner">
-                <div class="site-logo">
-                    <a href="/"><span class="hacker">Hacker</span><span class="ship">ship</span></a><br>
-                </div>
-                <div class="site-claim">time to become a better hacker</div>
-            </header><!-- end site-header -->
-        </div>
-
-
+      
         {{content}}
 
         <!-- <div class="container" style="background-color: white; text-align: center; color: #999; line-height: 50px; padding: 50px;">
@@ -51,34 +51,50 @@
         </div> -->
 
 
-        <footer>
-            <div class="connect">
-                <h3>Connect</h3>
-                    <ul>
-                        <li><a href="https://www.facebook.com/hackership">Facebook</a></li>
-                        <li><a href="https://www.twitter.com/hacker_ship">Twitter</a></li>
-                        <li><a href="https://plus.google.com/114286322233180061886" rel="publisher">Google+</a></li>
-                    </ul>
-                    <p>or email us: <br /><a href="mailto:team |at| hackership |dot| org">team at hackership dot org</a></p>
-            </div>
-            <div class="newsletter">
-                <h3>Newsletter</h3>
-                <p>Stay up to date with Hackership</p>
-                <form action="http://hackership.us7.list-manage1.com/subscribe/post?u=d893774e9260bf62c4533f5d1&amp;id=eec4326c27" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                    <input type="email" value="" name="EMAIL" class="email"  placeholder="name@domain.com" required>
-                    <button type="submit" name="submit" id="ss-submit">subscribe</button>
-                </form>
-            </div>
+        <footer class="page-footer grey darken-3">
+                <div class= "container">
+                    <div class = "row footer">
+                        <div class= "col 16 s6">
+                            <span style="padding-right:2vw;"><a href="https://www.facebook.com/hackership" class="grey-text text-lighten-4"><i class="fa fa-facebook-f fa-lg"></i> </a></span>
+                            <span style="padding-right:2vw;padding-top:1vw;"><a href="https://www.twitter.com/hacker_ship" class="grey-text text-lighten-4"><i class="fa fa-twitter fa-lg"></i> </a></span>  
+                            <span><a href="https://plus.google.com/114286322233180061886" class="grey-text text-lighten-4"><i class="fa fa-google-plus-square fa-lg"></i> </a></span>
+                            <span style="padding-left:2vw;"><a href="http://blog.hackership.org/atom.xml" class=""grey-text text-lighten-4""><i class="fa fa-rss fa-lg"></i></a></span>
+                            <ul>
+                            <li><a href="/contact">Contact Us</a></li>
+                            <li><a href="/get-involved/">Get Involved</a></li>
+                            <li><a href="/about/#team">Meet the Team</a></li>
+                            <li><a href="/programme/#video">Hackership video</a></li>
+                           <!--  <li><a href="/values#conduct">Code of Conduct</a></li> -->
+                            <!-- <li><a href="/history">History</a></li>
+                            <li><a href="/get-involved/">Companies</a></li>
+                            <li><a href="/get-involved/">Press</a></li> -->
+                            <li><a href="/xkcd/">XKCD</a></li>
+                            <li><a href="https://www.google.es/maps/place/Palmitos+Park/@27.831647,-15.617954,11z/data=!4m5!1m2!2m1!1spark!3m1!1s0xc408324c1564579:0xb87ba56f0b56064b?hl=en">Go Outside</a></li>
+                            </ul>
+                        </div>
+                        <div class= "col s6 grey-text text-lighten-4">
+                            <h5 class="white-text">Newsletter</h5>
+                            <p>Stay up to date with Hackership</p>
+                            <div class="row">
+                                <form class="col s12" action="http://hackership.us7.list-manage1.com/subscribe/post?u=d893774e9260bf62c4533f5d1&amp;id=eec4326c27" method="post" id="mc-embedded-subscribe-form" style="background-color:white;color:black;">
+                                    <div class="input-field col s12">
+                                        <input id="email" type="email" name="EMAIL" placeholder="name@domain.com" value="" class="email" required>
+                                    </div>
+                                    <button class="btn waves-effect white-waves"type="submit" name="action" id="ss-submit">subscribe
+                                        <i class="mdi-content-send right"></i>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-
-            <div class="imprint">
-               <strong>Imprint:</strong>
-                <address>
-                    Hash Picker UG //
-                    Licenced by <a href="http://www.opentechschool.org">OpenTechSchool</a>
-                </address>
-            </div>
-                
+                <div class = "footer-copyright grey darken-4">
+                    <div class="container">
+                        <span class="text-white">@ 2015 Copyright Hash Picker UG ||
+                        Licenced by <a href="http://www.opentechschool.org">OpenTechSchool</a></span>
+                    </div>
+                </div>
         </footer>
         
 

@@ -2,22 +2,35 @@
 layout: default
 ---
 
-        <div class="main-container">
-            <div class="main container clearfix">
+<div class="navbar-fixed">
+    <nav>
+        <div class="nav-wrapper">
+            <div class="container">
+            <div class="brand-logo">
+              <a href="/"><span class="green-text-hs">Hacker</span><span class="white-text">ship</span></a>
+              </div>
+              <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+            
+            
+            <ul id="mobile-demo" class="right hide-on-med-and-down side-nav">
+
+                <li {% if page.url == '/about/index.html' %} class="active" {% endif %}><a href="/about/">About</a></li>
+                <li {% if page.url == '/programme/index.html' %} class="active" {% endif %}><a href="/programme/">Programme</a></li>
+                <li {% if page.url == '/community/index.html' %} class="active" {% endif %}><a href="/community/">Community</a></li>
+                <li {% if page.url == '/alumni/index.html' %} class="active" {% endif %}><a href="/alumni/">Alumni</a></li>
+                <li {% if page.url == '/questions/index.html' %} class="active" {% endif %}><a href="/questions/">FAQ</a></li>
+                <li><a href="/apply/" style="background-color:#20a260" >Apply</a></li>
+                <li><a href="http://blog.hackership.org/">Blog</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<br /><br />
+</div>
 
 
-                <nav class="site-nav">
-                    <ul class="inline-block-list">
-                        <li><a href="http://blog.hackership.org/" data-ga-action="Nav click" data-ga-label="blog">Blog</a></li>
-                        <li><a href="/learn-more/" data-ga-action="Nav click" data-ga-label="learn more">Learn more</a></li>
-                        <li><a href="/get-involved/" data-ga-action="Nav click" data-ga-label="learn more">Get Involved</a></li>
-                        <li><a href="/questions/" data-ga-action="Nav click" data-ga-label="Questions">Questions</a></li>
-                        <li><a href="/apply/" data-ga-action="Nav click" data-ga-label="Apply">Apply</a></li>
-                    </ul>
-                </nav>
 
-                <div class="wrapper">
-                    {{content}}
-                </div>
-            </div> <!-- #main -->
-        </div> <!-- #main-container -->
+    <div class="wrapper">
+            {{content}}
+    </div>
+
