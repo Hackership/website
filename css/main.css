@@ -2,6 +2,21 @@
 	color: #222;
 }
 
+.quote-left {
+    background-color: white;
+    margin-left: 5%;
+    border-radius: 6px;
+    margin-right:10%;
+}
+
+.quote-right {
+    background-color: white;
+    border-radius: 6px;
+    margin-left: 10%;
+    margin-right:5%;
+}
+
+
 .green-text-hs {
 	color: #20a260;
 }
