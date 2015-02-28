@@ -118,10 +118,30 @@ title: Apply now
 
 <div class="section offer">
     <div class="container">
-        <h5 id="apply-form">Application form</h5>
-        <iframe src="https://docs.google.com/forms/d/15W0BTdMS6CCOIiYrf54LkKsuNueDPbW0U71UHzgNjE8/viewform?embedded=true" width="300" height="900" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+        <h4 id="apply-form">Application form</h4>
+        <br />
+        <script>
+            var formArray = [
+                "http://blog.hackership.org",
+                "https://docs.google.com/forms/d/15W0BTdMS6CCOIiYrf54LkKsuNueDPbW0U71UHzgNjE8/viewform?embedded=true"]; 
+
+            function loadForm(dir) {   
+                var iframe = document.getElementById("applyFrame"); 
+                    iframe.src = formArray[dir]; 
+                return false;} 
+        </script>
+
+        <div class="row">
+            <a href="#" onclick="return loadForm(0)" class="waves-effect btn-large"> Regular Form</a> 
+            <a href="#" onclick="return loadForm(1)"  class="waves-effect btn-large"> Form With Grant </a> 
+     </div>
+        <div class="row">
+            <iframe id="applyFrame" src="https://docs.google.com/forms/d/15W0BTdMS6CCOIiYrf54LkKsuNueDPbW0U71UHzgNjE8/viewform?embedded=true" width="300" height="900" frameborder="0" marginheight="0" marginwidth="0"></iframe> 
+        </div>
     </div>
 </div>
+
+
 
 <div class="divider">
     </div>
