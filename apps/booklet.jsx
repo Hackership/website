@@ -18,6 +18,7 @@ var Sheets = {};
 
 var _callbacks = [];
 
+
 $.each(SheetNames, function(name, val){
   Tabletop.init({
         key: val,
@@ -31,6 +32,29 @@ $.each(SheetNames, function(name, val){
         debug: true
         });
 });
+
+function data_id(data){
+    return data.Name.replace(" ", "-").toLowerCase();
+}
+
+function in_batches(array, length){
+    var res = [],
+        cur = [],
+        reset = 0;
+    for (idx = 0; idx < array.length; idx++){
+        cur.push(array[idx]);
+        reset += 1;
+        if (reset === length){
+            reset = 0;
+            res.push(cur);
+            cur = [];
+        }
+    }
+    if (cur.length){
+        res.push(cur);
+    }
+    return res;
+}
 
 function saveMarkdown(content){
     if (!content) return
@@ -54,7 +78,7 @@ var FrontPage = React.createClass({
     }
 })
 
-var Card = React.createClass({
+var ItemHead = React.createClass({
     render: function() {
         var data = this.props.data,
             image = (<img style={{width: "100%"}} src={data.Image} />),
@@ -81,8 +105,8 @@ var Card = React.createClass({
 var Item = React.createClass({
     render: function(){
         var data = this.props.item;
-        return (<section>
-                    <Card data={data} />
+        return (<section id={data_id(data)}>
+                    <ItemHead data={data} />
 
                     <h2>Prior Experience</h2>
                     <div dangerouslySetInnerHTML={{__html: saveMarkdown(data["Background"])}} />
@@ -125,7 +149,62 @@ var Header = React.createClass({
                  </nav>
                 </div>);
     }
-})
+});
+
+
+
+var Card = React.createClass({
+    render: function() {
+        var data = this.props.data,
+            image = (<img style={{width: "100%"}} src={data.Image} />),
+            keywords = data.Keywords ? (<div className="card-content">
+                            {data.Keywords}
+                        </div>) : null,
+            contacts = data.Contacts ? (<div className="card-action"
+                    dangerouslySetInnerHTML={{__html: saveMarkdown(data.Contacts)}} />) : null;
+
+        return (<div onClick={this.onClick} className="col s12 m4 l4">
+                  <div className="card">
+                    <div className="card-image">
+                      {image}
+                      <span className="card-title">{data.Name}</span>
+                    </div>
+                    {keywords}
+                    {contacts}
+                  </div>
+                </div>);
+    },
+    onClick: function(){
+        $target = $("#" +  data_id(this.props.data));
+
+        $('html,body').animate({
+          scrollTop: $target.offset().top
+        }, 1500);
+    }
+});
+
+
+var Overview = React.createClass({
+    render: function(){
+        if (!this.props.items) return null;
+        var overview = this,
+            items = $.map(this.props.items, function(i){
+                return (<Card data={i} />)
+            }),
+            in_rows = $.map(in_batches(items, 3), function(items){
+                return (<div className="row">{items}</div>);
+            });
+        return (<div className="noprint">
+                    <p>This is an incomplete list of our Alumni for this Batch.</p>
+                    {in_rows}
+                    <hr/>
+                </div>);
+    },
+    scrollTo: function(x){
+
+    }
+
+});
 
 
 var Booklet = React.createClass({
@@ -155,7 +234,7 @@ var Booklet = React.createClass({
                 items = (<Item item={ExampleData} />);
             } else {
                 items = $.map(data, function(i){
-                    return (<Item item={i} />)
+                    return (<Item item={i} />);
                 });
             }
         }
@@ -163,6 +242,7 @@ var Booklet = React.createClass({
         return (<div>
                     <Header active={this.state.selectedBatch} selectBatch={this.selectBatch} />
                     <FrontPage batch={this.state.selectedBatch} />
+                    <Overview items={data} />
                     {items}
                 </div>);
     }
