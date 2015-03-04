@@ -1,5 +1,8 @@
 
-var FallbackSheet = "1IJz8jEZ8OD8NE2isne-IF9eYSvOGFqHYvD6C8IXcMoQ";
+var SheetNames = {
+    '2014.06 "Berlin"' : "1mIGsrYx9dWTrxQWWYSkniGis--kX7sH8IwmRTEwwma8",
+    '2015.01 "Gran Canaria"' : "1IJz8jEZ8OD8NE2isne-IF9eYSvOGFqHYvD6C8IXcMoQ"
+}
 
 var ExampleData = {
     "Name": "Benjamin Kampmann",
@@ -10,6 +13,24 @@ var ExampleData = {
     "At Hackership": "I focused on **Python and machine learning** and spent time learning **pandas and scikit- learn**, and applying them to Kaggle problems. This culminated in me leading a tutorial at the PyCon UK 2014 conference. During the Hackership, I also founded the Kaggle Berlin Meetup group, and co-organized the inaugural PyData Berlin 2014 conference. I also took the opportunity to review the mechanics of the **Bitcoin protocol** in greater depth, a long- held interest that previously remained non-technical.",
     "What's Next?": "I would like to find a **junior back-end or Mid-level front-end position** at an interesting company, ideally with some sort of focus on encryption and/or internet privacy."
 }
+
+var Sheets = {};
+
+var _callbacks = [];
+
+$.each(SheetNames, function(name, val){
+  Tabletop.init({
+        key: val,
+        callback: function(data){
+            Sheets[name] = data;
+            $.each(_callbacks, function(idx, x){
+                x(name);
+            });
+        },
+        simpleSheet: true,
+        debug: true
+        });
+});
 
 function saveMarkdown(content){
     if (!content) return
@@ -27,8 +48,8 @@ var FrontPage = React.createClass({
     render: function(){
         return (<div id="frontPage">
                     <img src="./cert-bg.png" />
-                    <h1>Hackership Batch-2</h1>
-                    <h2>2015</h2>
+                    <h1>Hackership Learners</h1>
+                    <h2>{this.props.batch}</h2>
                 </div>)
     }
 })
@@ -61,26 +82,47 @@ var Item = React.createClass({
     render: function(){
         var data = this.props.item;
         return (<section>
+                    <Card data={data} />
 
-                <Card data={data} />
-
-                <h2>Prior Experience</h2>
-                <div dangerouslySetInnerHTML={{__html: saveMarkdown(data["Background"])}} />
-                <h2>At Hackership</h2>
-                <div dangerouslySetInnerHTML={{__html: saveMarkdown(data["At Hackership"])}} />
-                <h2>Looking forward</h2>
-                <div dangerouslySetInnerHTML={{__html: saveMarkdown(data["What's Next?"])}} />
-            </section>);
+                    <h2>Prior Experience</h2>
+                    <div dangerouslySetInnerHTML={{__html: saveMarkdown(data["Background"])}} />
+                    <h2>At Hackership</h2>
+                    <div dangerouslySetInnerHTML={{__html: saveMarkdown(data["At Hackership"])}} />
+                    <h2>Looking forward</h2>
+                    <div dangerouslySetInnerHTML={{__html: saveMarkdown(data["What's Next?"])}} />
+                    <hr className="noprint"/>
+                </section>);
     }
 
 });
 
 var Header = React.createClass({
+                    // <a target="_blank" href="https://docs.google.com/forms/d/1npxwefBCRa7gvyEr7PX11Uq9OclLxEEOmk8QC9O_44k/viewform" className="btn waves-effect waves-light" >Add
+                    //     <i className="mdi-content-add"></i>
+                    // </a>
+    componentWillMount: function(){
+        _callbacks.push(this.forceUpdate.bind(this));
+    },
     render: function(){
-        return (<div>
-                    <a target="_blank" href="https://docs.google.com/forms/d/1npxwefBCRa7gvyEr7PX11Uq9OclLxEEOmk8QC9O_44k/viewform" className="btn waves-effect waves-light" >Add
-                        <i className="mdi-content-add"></i>
-                    </a>
+        var header = this,
+            items = $.map(Sheets, function(x, val){
+            var active = header.props.active == val ? "active" : null,
+                selector = function(){
+                    header.props.selectBatch(val);
+                };
+            return (<li onClick={selector} className="tab">
+                        <a className={active}>{val}</a>
+                    </li>)
+
+        });
+        return (<div className="row noprint" style={{"text-align": "center"}}>
+                    <h1>Hackership Learners</h1>
+                    <p>Select your release</p>
+                 <nav>
+                    <ul className="tabs">
+                        {items}
+                    </ul>
+                 </nav>
                 </div>);
     }
 })
@@ -88,32 +130,39 @@ var Header = React.createClass({
 
 var Booklet = React.createClass({
     getInitialState: function(){
-        return {};
+        return {selectedBatch: null, loading: true};
     },
     componentWillMount: function(){
-        Tabletop.init({
-            key: FallbackSheet,
-            callback: this._tabletopLoaded,
-            simpleSheet: true
-            })
+        _callbacks.push(this.batchFound.bind(this));
     },
-    _tabletopLoaded: function(data, tabletop){
-        console.log(data);
-        this.setState({data:data})
+    batchFound: function(batch){
+        if (!this.state.selectedBatch){
+            this.setState({selectedBatch: batch, loading: false});
+        }
+    },
+    selectBatch: function(s){
+        this.setState({selectedBatch: s});
     },
     render: function(){
         var items;
-        if (!this.state.data){
-            items = (<Item item={ExampleData} />);
+        if (this.state.loading){
+
+            items = (<Loading />)
+
         } else {
-            items = $.map(this.state.data, function(i){
-                return (<Item item={i} />)
-            });
+            var data = Sheets[this.state.selectedBatch];
+            if (!data){
+                items = (<Item item={ExampleData} />);
+            } else {
+                items = $.map(data, function(i){
+                    return (<Item item={i} />)
+                });
+            }
         }
 
         return (<div>
-                    <Header />
-                    <FrontPage />
+                    <Header active={this.state.selectedBatch} selectBatch={this.selectBatch} />
+                    <FrontPage batch={this.state.selectedBatch} />
                     {items}
                 </div>);
     }
@@ -130,5 +179,6 @@ var Booklet = React.createClass({
 //         return (<div dangerouslySetInnerHTML={this.data}>)
 //     }
 // });
+
 
 React.render(<Booklet />, document.getElementById("booklet"));
