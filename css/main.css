@@ -66,8 +66,10 @@
     color:white;
 }
 .section {
-    padding-top: 3vw;
+    /* minor trick to make the position for #-hashes work nicel */
+    padding-top: 6vw;
     padding-bottom: 3vw;
+    margin-top: -3vw;
 }
 
 body {
