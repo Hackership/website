@@ -37,8 +37,20 @@
     background-color:#20a260;
 }
 
+.grey-bg{
+    background-color: #f5f5f5;
+    
+}
+
 .offer {
     background-color: #f5f5f5;
+    
+}
+
+.section.offer {
+    padding-top: 4vw;
+    padding-bottom: 3vw;
+    margin-top: 0vw;
 }
 
 .offer p {
