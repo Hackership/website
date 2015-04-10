@@ -63,6 +63,9 @@
     border-radius: 10px;
 }
 
+.list{
+    margin-bottom: 20px;
+}
 .active a {
     /*border-bottom: 5px;
     border-bottom-style: solid;
