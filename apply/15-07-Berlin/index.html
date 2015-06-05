@@ -1,0 +1,184 @@
+---
+layout: page
+title: Apply now
+---
+
+<div class="batch-intro" id="bg-berlin">
+    <!-- <div>
+        <h1>Join us in the most amazing City on earth!</h1>
+    </div> -->
+</div>
+
+<div id="berlin" class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m12">
+                <h4>Batch 15-07 Berlin, Germany</h4>
+                <h5>July - Sept 2015</h5>
+                <p> This summer we will return to our home turf, Berlin, for our fourth batch of Hackership. The batch will run from July 6th until September 3rd, 2015. The batch will run full time Monday - Thursday for 9 weeks, including one reading week.
+                In case you’ve been living in a cave and haven’t heard, Berlin is a seriously amazing place. Not just for the low cost of living and huge tech and entrepreneurial scene there, but also for the nature, history, culture,  partying and more. Spend your weekdays with us, and your weekends dancing on a beach at an open-air techno party, cycling to and swimming in gorgeous lakes, while eating great and cheap food and meeting a whole host of liberal, crazy creative people. It will make you wonder WTF you are doing living anywhere else.
+                <br />
+                <p> <span style="text-decoration: line-through">Regular applications will close May 31st.</span>. <a href="http://blog.hackership.org/2015/05/Our-Home-In-Berlin.html">Thanks to Wooga</a>, we have more space available and can extend the deadline. <strong>The latecomer deadline is June 15th, or when all places are allocated</strong>, whichever is sooner! Applications will be processed on a rolling basis.</p>
+                <br>
+                <h5>Tuition Fees</h5>
+                <p><strong>Earlybird</strong> 2450 Euro*<br>
+                <strong>Regular</strong> 2550 Euro*</p>
+                <p>We have five full <a href="#grants">grants available</a> for women.<br><br>
+                <strong style="color:black">*PLEASE NOTE: All tuition fees for Berlin include VAT.</strong> As this batch is held in Germany, 19% VAT is required for all applicants (both EU and non-EU residents).</p>
+            </div>
+        </div>
+        <div class= "row">
+            <div class="col s12 m6">
+                <a href="/apply/#apply-form" onclick="return formSelect('Berlin', true);" class="waves-effect btn-large">Apply for Berlin</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="divider"></div>
+
+
+<!-- 
+<div id="berlin" class="section offer">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m12">
+                <h4>Living Costs in Berlin</h4>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+
+
+    <div class="section">
+        <div class="container">
+            <div class="row left-align">
+                <img src="http://woo.ga/logo" class="col s12 m4 sblogo" />
+                <div class="col s12 m8">
+                    <h5>Our partner in Berlin</h5>
+                    <p>
+                          We have partnered with Wooga and will be hosted at their offices in Berlin! If we had written a secret wishlist of everything we wanted for our next Hackership space, it would have looked just like what the awesome folks at Wooga are providing. Really!
+                    </p>
+                </div>
+                <img src="http://blog.hackership.org/content/2015-05-26-wooga-building-logo.png" class="col s12 m12" />
+                <div class="col s12 m12">
+                    <p>
+                        For 9 weeks, this Summer, we will be hosted on their first floor in Mitte, in a bright, airy and central space, complete with kitchen, a focussed work space for 40 people and of course, a ping pong table for those much needed breaks!
+                    </p>
+                    <p>
+                        The Wooga team is one of the most successful in mobile game development, with over 50 million people playing their free games every month across multiple platforms. More than just hosting us in a great space in a central location, we’re really happy to partner with a company that seems to have a very positive engineering culture.
+                    </p>
+                    <a href="http://blog.hackership.org/2015/05/Our-Home-In-Berlin.html">Read the full Announcement on our blog.</a>.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="message" class="section offer">
+    <div class="container testimonial">
+        <div class="row left-align">
+            <div class="col s12 m12">
+            <br />
+                <h5>Message to Women!</h5>
+                <p>The experience from our applications process confirms existing academic research on gender. Generally,  men are likely to over-estimate their talents and apply early. <a href="https://hbr.org/2014/08/why-women-dont-apply-for-jobs-unless-theyre-100-qualified/">Women under-estimate and delay</a>.</p>
+                <p>
+                So, if you are reading this and wondering whether to apply, the answer is yes. Apply. Now.  Not once you’ve studied a bit more. Not once you are a better programmer or your application is totally perfect. TODAY. <strong>Do not under-estimate your experiences and talents. </strong> </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="apply-form" class="section">
+    <div class="container">
+        <h4 id="form-title">Application form </h4>
+        <h6 id="refresh">please select:</h6>
+        <br />
+        <script>
+
+            var forms = {
+                'Berlin': {
+                    'regular': "https://docs.google.com/forms/d/1fZEu_h5RDMHwP7cXhp_OAzPS_cgTARjoDzeCDDZTuVM/viewform",
+                    'grant': "https://docs.google.com/forms/d/1uc629Cvega8L9K1LcHEPv7cH9YL27q163vceLsl9Gpg/viewform"
+                },
+                'Costa Rica': {
+                    'regular': "https://docs.google.com/forms/d/1H7f3ELxcqjvFLuSjky7Xqax30U40ADheP3RphTNbFQE/viewform",
+                    'grant': "https://docs.google.com/forms/d/1WSEeRGoMgi7o7z2yaxDYB287z03nfq7ds_lCuvA__gQ/viewform"
+                }
+            };
+
+            function loadForm(location, grants) {
+                var frame = $('<div><iframe width="800" height="700" frameborder="0" marginheight="0" marginwidth="0"></iframe><p>Refresh page to select a different form <br> <br> <a target="_blank" class="waves-effect btn-large">Open form in new window</a></p></div>');
+
+                var text = $('<h4> Application Form ' + location + (grants? " + Grant" : "" ) + ' </h4>');
+
+                var link = forms[location][grants ? 'grant': 'regular'];
+
+                frame.find('iframe').attr("src", link);
+                frame.find('a').attr("href", link)
+                $("#applyButton").html(frame);
+                $("#refresh").remove();
+                $("#form-title").html(text);
+                return false;
+            }
+            function formSelect(dir, scroll) {
+                // var buttonOne= $(buttons[dir][0]);
+                // var buttonTwo= $(buttons[dir][1]);
+                var text = $('<h4> Application Form ' + dir +' </h4>');
+                $("#applyButton").html('<div class="col s12 m6 l4">' +
+                        '<a href="#" onclick="return loadForm(\'' + dir + '\', false)" class="waves-effect btn-large">Regular Form</a>' +
+                    '</div> <div class="col s12 m6 l4">' +
+                        '<a href="#" onclick="return loadForm(\'' + dir + '\', true)" class="waves-effect btn-large">Form With Grant</a>' +
+                    '</div>')
+                $("#form-title").html(text);
+                if (scroll) $('html,body').animate({
+                  scrollTop: $("#form-title").offset().top - 100
+                }, 1500);
+
+                return false;
+            }
+            $(function(){
+                formSelect("Berlin", false);
+            });
+        </script>
+
+        <div class="row" id="applyButton">
+            <div class="col s4 m4">
+                <a href="#" onclick="return formSelect('Berlin')" class="waves-effect btn-large">Berlin</a>
+            </div>
+            <div class="col s4 m4">
+                <a href="#" onclick="return formSelect('Costa Rica')" class="waves-effect btn-large">Costa Rica</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="divider">
+    </div>
+
+<div class="section" id="next-batch">
+    <div class="container">
+        <h4>Upcoming batches </h4>
+        <p>For 2016, we have batches planned in Central America, Berlin and Asia. Eager to stay up to date and learn more about our future plans? Make sure to <strong>subscribe to the newsletter</strong> to be the first to be informed when the dates are announced and details of the timeline are available:</p>
+        <div class="row">
+            <form class="col s12 m12" action="http://hackership.us7.list-manage1.com/subscribe/post?u=d893774e9260bf62c4533f5d1&amp;id=eec4326c27" method="post" id="mc-embedded-subscribe-form" style="background-color:white;color:black;">
+                <div class="input-field col s12">
+                    <input id="email" type="email" name="EMAIL" placeholder="name@domain.com" value="" class="email" required>
+                </div>
+                <button class="btn waves-effect white-waves green-hs"type="submit" name="action" id="ss-submit">subscribe
+                    <i class="mdi-content-send right"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <p class="smaller">Thanks to <a href="https://www.flickr.com/photos/tinto/13332870035/">Jörg Schubert to release the background pictures used under Creative Commons 3.0 on Flickr</a>!</p>
+</div>

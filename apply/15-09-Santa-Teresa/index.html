@@ -1,0 +1,162 @@
+---
+layout: page
+title: Apply now
+---
+<div class="batch-intro" id="bg-st">
+    <!-- <div>
+        <h1>Batch 15-09 Santa Teresa</h1>
+        <h2>Costa Rica, July - Sept 2015</h2>
+    </div> -->
+</div>
+
+
+
+<div id="costa-rica" class="section offer">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m12">
+                <h4>Batch 15-09 Santa Teresa, Costa Rica</h4>
+                <h5>July - Sept 2015</h5>
+                <p>After a summer in Berlin, Hackership sets sail for Costa Rica, where we will run a batch from September till November 2015. The batch will run full time Monday - Thursday for 9 weeks, including one reading week. Learn with us during the week and spend your weekends exploring the beautiful beaches and surfing the waves off Santa Teresa.</p>
+                <p> <strong>Earlybird applications are now open and will close May 15th, at midnight! (Berlin time!), or when all places are allocated, whichever is sooner. Applications will be processed on a rolling basis. </strong> </p>
+                <br>
+                <h5>Tuition Fees</h5>
+                <p><strong>Earlybird</strong> 4950 USD*<br>
+                <strong>Regular</strong> 5150 USD*
+                </p>
+                <p>
+                We have five full <a href="#grants">grants available</a> for women.<br><br>
+                <strong style="color:black">*PLEASE NOTE: Tuition fees for Costa Rica exclude VAT.</strong> EU Residents are required to pay 19% VAT on top of this tuition fee (earlybird: 5890.50, regular: 6128.50). Non-EU residents are exempt.</strong></p>
+            </div>
+        </div>
+
+        <div class= "row">
+            <div class="col s12 m6">
+                 <a href="/apply/#apply-form" onclick="return formSelect('Costa Rica', true);" class="waves-effect btn-large">Apply for Costa Rica</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="divider"></div>
+    <div id="silicon-beach" class="section">
+        <div class="container">
+            <div class="row left-align">
+                <img src="/img/sblogo.png"  class="col s12 m4 sblogo" />
+                <div class="col s12 m8">
+                    <h5>Our partner in Costa Rica</h5>
+                    <p>
+                      Silicon Beach is a Costa Rica based forum for IT entrepreneurs & people looking to work, start-up or invest and network in a very special setting. Our goal is to inspire and bring together technology talent from Costa Rica and around the world to pursue their dreams or efforts in a more fulfilling and healthy environment (part-time, full-time, project based, etc.). </p>
+                </div>
+                <div class="col s12 m12">
+                    <p> Success is typically driven by working hard--and smart. Success leads to happiness if we can balance the road to get there. <strong>So with today's technology and tools at hand, why not do so by working from an 'office' with a view of the ocean and taking a coffee break by surfing a wave--or recharging with a meditation class at sunset</strong>. We organize networking events and extend this into seminars, hackathons, workshops, coaching and mentoring programs as the forum grows. Entrepreneurs, innovators, coders, students, geeks, founders and business owners, please join us if you want meet like-minded people. Get help with getting started working from a place like Santa Teresa, participate in networking activities and co-founder mixers, find marketing resources and strategic partners, seek investors and venture capital or get access to advisory boards and mentors <br /> <strong>Welcome to Silicon Beach!</strong>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="divider"></div>
+
+
+<div id="message" class="section offer">
+    <div class="container testimonial">
+        <div class="row left-align">
+            <div class="col s12 m12">
+            <br />
+                <h5>Message to Women!</h5>
+                <p>The experience from our applications process confirms existing academic research on gender. Generally,  men are likely to over-estimate their talents and apply early. <a href="https://hbr.org/2014/08/why-women-dont-apply-for-jobs-unless-theyre-100-qualified/">Women under-estimate and delay</a>.</p>
+                <p>
+                So, if you are reading this and wondering whether to apply, the answer is yes. Apply. Now.  Not once you’ve studied a bit more. Not once you are a better programmer or your application is totally perfect. TODAY. <strong>Do not under-estimate your experiences and talents. </strong> </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="apply-form" class="section offer">
+    <div class="container">
+        <h4 id="form-title">Application form </h4>
+        <h6 id="refresh">please select:</h6>
+        <br />
+        <script>
+
+            var forms = {
+                'Berlin': {
+                    'regular': "https://docs.google.com/forms/d/1fZEu_h5RDMHwP7cXhp_OAzPS_cgTARjoDzeCDDZTuVM/viewform",
+                    'grant': "https://docs.google.com/forms/d/1uc629Cvega8L9K1LcHEPv7cH9YL27q163vceLsl9Gpg/viewform"
+                },
+                'Costa Rica': {
+                    'regular': "https://docs.google.com/forms/d/1H7f3ELxcqjvFLuSjky7Xqax30U40ADheP3RphTNbFQE/viewform",
+                    'grant': "https://docs.google.com/forms/d/1WSEeRGoMgi7o7z2yaxDYB287z03nfq7ds_lCuvA__gQ/viewform"
+                }
+            };
+
+            function loadForm(location, grants) {
+                var frame = $('<div><iframe width="800" height="700" frameborder="0" marginheight="0" marginwidth="0"></iframe><p>Refresh page to select a different form <br> <br> <a target="_blank" class="waves-effect btn-large">Open form in new window</a></p></div>');
+
+                var text = $('<h4> Application Form ' + location + (grants? " + Grant" : "" ) + ' </h4>');
+
+                var link = forms[location][grants ? 'grant': 'regular'];
+
+                frame.find('iframe').attr("src", link);
+                frame.find('a').attr("href", link)
+                $("#applyButton").html(frame);
+                $("#refresh").remove();
+                $("#form-title").html(text);
+                return false;
+            }
+            function formSelect(dir, scroll) {
+                // var buttonOne= $(buttons[dir][0]);
+                // var buttonTwo= $(buttons[dir][1]);
+                var text = $('<h4> Application Form ' + dir +' </h4>');
+                $("#applyButton").html('<div class="col s12 m6 l4">' +
+                        '<a href="#" onclick="return loadForm(\'' + dir + '\', false)" class="waves-effect btn-large">Regular Form</a>' +
+                    '</div> <div class="col s12 m6 l4">' +
+                        '<a href="#" onclick="return loadForm(\'' + dir + '\', true)" class="waves-effect btn-large">Form With Grant</a>' +
+                    '</div>')
+                $("#form-title").html(text);
+                if (scroll) $('html,body').animate({
+                  scrollTop: $("#form-title").offset().top - 100
+                }, 1500);
+
+                return false;
+            }
+            $(function(){
+                formSelect("Costa Rica", false);
+            });
+        </script>
+
+        <div class="row" id="applyButton">
+            <div class="col s4 m4">
+                <a href="#" onclick="return formSelect('Berlin')" class="waves-effect btn-large">Berlin</a>
+            </div>
+            <div class="col s4 m4">
+                <a href="#" onclick="return formSelect('Costa Rica')" class="waves-effect btn-large">Costa Rica</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="divider">
+    </div>
+
+<div class="section" id="next-batch">
+    <div class="container">
+        <h4>Upcoming batches </h4>
+        <p>For 2016, we have batches planned in Central America, Berlin and Asia. Eager to stay up to date and learn more about our future plans? Make sure to <strong>subscribe to the newsletter</strong> to be the first to be informed when the dates are announced and details of the timeline are available:</p>
+        <div class="row">
+            <form class="col s12 m12" action="http://hackership.us7.list-manage1.com/subscribe/post?u=d893774e9260bf62c4533f5d1&amp;id=eec4326c27" method="post" id="mc-embedded-subscribe-form" style="background-color:white;color:black;">
+                <div class="input-field col s12">
+                    <input id="email" type="email" name="EMAIL" placeholder="name@domain.com" value="" class="email" required>
+                </div>
+                <button class="btn waves-effect white-waves green-hs"type="submit" name="action" id="ss-submit">subscribe
+                    <i class="mdi-content-send right"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+</div>

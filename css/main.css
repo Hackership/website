@@ -132,3 +132,32 @@ h1, h2, h3, h4, h5 {
     font-weight: 300;
 }
 
+.batch-intro {
+    height: 45vh;
+    position: relative;
+}
+
+.batch-intro > div{
+    background: rgba(100, 100, 100, 0.5);
+    padding: 1vh 3vw;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.batch-intro h1 {
+    font-size: 5vh;
+    line-height: 6vh;
+}
+.batch-intro h2 {
+    color: white;
+    font-size: 3vh;
+    line-height: 4vh;
+}
+
+#bg-berlin {
+    background: url("/img/berlin-huge.jpg");
+    background-size: cover;
+    background-position: bottom right;
+}
+
