@@ -161,3 +161,10 @@ h1, h2, h3, h4, h5 {
     background-position: bottom right;
 }
 
+#bg-st {
+    background: url("/img/santa-teresa-huge.jpg");
+    background-size: cover;
+    background-position: bottom right;
+}
+}
+
