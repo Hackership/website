@@ -17,19 +17,7 @@ title: Apply now
                 <h5>July - Sept 2015</h5>
                 <p> This summer we will return to our home turf, Berlin, for our fourth batch of Hackership. The batch will run from July 6th until September 3rd, 2015. The batch will run full time Monday - Thursday for 9 weeks, including one reading week.
                 In case you’ve been living in a cave and haven’t heard, Berlin is a seriously amazing place. Not just for the low cost of living and huge tech and entrepreneurial scene there, but also for the nature, history, culture,  partying and more. Spend your weekdays with us, and your weekends dancing on a beach at an open-air techno party, cycling to and swimming in gorgeous lakes, while eating great and cheap food and meeting a whole host of liberal, crazy creative people. It will make you wonder WTF you are doing living anywhere else.
-                <br />
-                <p> <span style="text-decoration: line-through">Regular applications will close May 31st.</span>. <a href="http://blog.hackership.org/2015/05/Our-Home-In-Berlin.html">Thanks to Wooga</a>, we have more space available and can extend the deadline. <strong>The latecomer deadline is June 15th, or when all places are allocated</strong>, whichever is sooner! Applications will be processed on a rolling basis.</p>
-                <br>
-                <h5>Tuition Fees</h5>
-                <p><strong>Earlybird</strong> 2450 Euro*<br>
-                <strong>Regular</strong> 2550 Euro*</p>
-                <p>We have five full <a href="#grants">grants available</a> for women.<br><br>
-                <strong style="color:black">*PLEASE NOTE: All tuition fees for Berlin include VAT.</strong> As this batch is held in Germany, 19% VAT is required for all applicants (both EU and non-EU residents).</p>
-            </div>
-        </div>
-        <div class= "row">
-            <div class="col s12 m6">
-                <a href="/apply/#apply-form" onclick="return formSelect('Berlin', true);" class="waves-effect btn-large">Apply for Berlin</a>
+                </p>
             </div>
         </div>
     </div>
@@ -135,9 +123,9 @@ title: Apply now
                 // var buttonTwo= $(buttons[dir][1]);
                 var text = $('<h4> Application Form ' + dir +' </h4>');
                 $("#applyButton").html('<div class="col s12 m6 l4">' +
-                        '<a href="#" onclick="return loadForm(\'' + dir + '\', false)" class="waves-effect btn-large">Regular Form</a>' +
+                        '<a href="#" class="waves-effect btn-large disabled">All Regular Seats Filled</a>' +
                     '</div> <div class="col s12 m6 l4">' +
-                        '<a href="#" onclick="return loadForm(\'' + dir + '\', true)" class="waves-effect btn-large">Form With Grant</a>' +
+                        '<a href="#" class="waves-effect btn-large disabled">All Grants Filled</a>' +
                     '</div>')
                 $("#form-title").html(text);
                 if (scroll) $('html,body').animate({
@@ -153,10 +141,10 @@ title: Apply now
 
         <div class="row" id="applyButton">
             <div class="col s4 m4">
-                <a href="#" onclick="return formSelect('Berlin')" class="waves-effect btn-large">Berlin</a>
+                <a href="#" onclick="return formSelect('Berlin')" class="waves-effect btn-large disabled">Berlin</a>
             </div>
             <div class="col s4 m4">
-                <a href="#" onclick="return formSelect('Costa Rica')" class="waves-effect btn-large">Costa Rica</a>
+                <a href="#" onclick="return formSelect('Costa Rica')" class="waves-effect btn-large disabled">Costa Rica</a>
             </div>
         </div>
     </div>
