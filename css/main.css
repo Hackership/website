@@ -180,6 +180,7 @@ body.landing .claim {
     color: white;
 }
 
+
 body.landing .navbar-fixed nav .fadeIn {
     opacity: 0;
 }
@@ -192,6 +193,23 @@ body.landing .intro {
     margin-top: -64px;
     display: flex;
     flex-direction: column-reverse;
+}
+
+
+body.landing .intro .btn-large {
+    background: transparent;
+    border: 2px solid white;
+    box-shadow: none;
+}
+
+body.landing .intro .btn-large:hover {
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    
 }
 
 body.landing .navbar-fixed nav:hover {
