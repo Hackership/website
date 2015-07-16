@@ -166,5 +166,48 @@ h1, h2, h3, h4, h5 {
     background-size: cover;
     background-position: bottom right;
 }
+
+
+body.landing .navbar-fixed nav {
+    background: transparent;
+    box-shadow: none;
+    position: absolute;
+}
+
+body.landing .claim {
+    padding-bottom: 10vh;
+    text-align: center;
+    color: white;
+}
+
+body.landing .navbar-fixed nav .fadeIn {
+    opacity: 0;
+}
+
+body.landing .intro {
+    height: 70vh;
+    background: url("/img/intro-bg.png");
+    background-size: cover;
+    background-position: bottom center;
+    margin-top: -64px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+body.landing .navbar-fixed nav:hover {
+    background: #222;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+body.landing .navbar-fixed nav:hover .fadeIn {
+    opacity: 1;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
