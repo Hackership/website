@@ -21,74 +21,8 @@ title: Events
 	         	<h4> Upcoming: </h4>
 	         </div>
 	         <div class= "row testimonial list">
-	         <img src="/img/matryoshka-small.jpg" class="col s3 m3 mentor" />
-	         	<div class="col s9 m9">
-	         	<h5><a target="_blank" href="http://www.meetup.com/Hackership/events/221592370/">[talks] Hackership presents</a></h5>
-	         	<p> One evening, three talks. This time we will cover functional programming, React.js and how to write your own programming language. Find out more on <a href="http://www.meetup.com/hackership-berlin/">our meetup page.</a></p>
-
-	         	<p><strong>Wednesday August 19, 7pm BERLIN</strong><br><br>
-	         		<a  target="_blank" class="btn" href="http://www.meetup.com/hackership-berlin/events/224530231/">Join!</a>
-	         	</p>
+	         <h5>no upcoming events</h5>
 	         </div>
-	         </div>
-	    </div>
-	</div>
-</div>
-<div class="divider">
-    </div>
-<div id="info" class="section">
-    <div class="container">
-	         <div class= "row ">
-	         	<h4> Office Hours </h4>
-	         	<p> Get your questions answered during these chat office hours!</p>
-	         </div>
-	         <div class="row">
-	         	<p>You can join us any time and ask your question, but through the following office hours, we make sure to have someone there to answer you directly:</p>
-	         	<ul>
-         			<li><strong>Tuesdays 6pm - 7pm</strong> (Berlin-Time)</li>
-
-         			<li><strong>Wednesdays 11pm - 12am</strong> (Berlin-Time)</li>
-         		</ul>
-
-         		<p>
-	         		<strong>Next Office hour</strong>: <span id="calendarBlock"></span>
-	         		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.3/moment.min.js"></script>
-
-					<script type="text/javascript" charset="utf-8">
-					function find_next(){
-					  var d = moment.utc();
-					  d.minute(0);
-					  if (d.day() === 2){
-					    if (d.hour() <= 17){
-					      d.hour(17);
-					    } else {
-
-					    	d.day(3);
-					    	d.hour(21);
-					    }
-					  } else if (d.day() === 3 && d.hour() <= 21){
-					      d.hour(21);
-					  } else {
-						  // move to next tuesday
-						  d.day(9);
-						  d.hour(17);
-
-					  }
-					  return d;
-					}
-
-					$(function(){
-						var next = find_next();
-						next.local();
-						$('#calendarBlock').html(next.calendar() + " (local time of your browser)");
-					});
-
-
-					</script>
-         		</p>
-	         </div>
-
-	         <a target="_blank" class="btn" href="https://gitter.im/Hackership/OfficeHours?utm_source=share-link&utm_medium=link&utm_campaign=share-link">Join here!</a>
 	    </div>
 	</div>
 </div>
